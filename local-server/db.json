@@ -1,3 +1,10 @@
 {
-    "users":[]
+  "users": [
+    {
+      "fName": "Murali",
+      "lName": "Veesambattu",
+      "email": "vmurali100@gmail.com",
+      "id": 1
+    }
+  ]
 }
