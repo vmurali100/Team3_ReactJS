@@ -12,6 +12,7 @@ function createusers(){
   sendInfo.onreadystatechange = function (){ // Will Excute On Every State
     if(sendInfo.readyState == 4 && sendInfo.status ==201){
         console.log("User Added Successfully")
+        getAllUsers()
     }
   }
   sendInfo.open("POST","http://localhost:3000/users");
