@@ -9,8 +9,8 @@ export default class Suri extends Component{
                   fname:"chandu",
                   lname:"babu",
                   email:"chandu@gmail.com"
-              },
-           student:["Hari","Lokesh","Abi","Chandu"]
+              },//object
+           student:["Hari","Lokesh","Abi","Chandu"]   //array
           }
       }
     
