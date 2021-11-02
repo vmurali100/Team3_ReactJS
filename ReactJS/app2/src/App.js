@@ -1,6 +1,7 @@
 import AbClass from "./AbClass";
 import GaniClass from "./GaniClass";
 import { Lucky, Mahi, Ram, Sree } from "./Mahi";
+import Mani from "./Mani";
 import Suri from "./Suri";
 
 import { Hari, Venu } from "./Venu";
@@ -18,6 +19,7 @@ function App() {
       <Ram/>
       <Lucky/>
       <Suri/>
+      <Mani/>
 
     </div>
   );
