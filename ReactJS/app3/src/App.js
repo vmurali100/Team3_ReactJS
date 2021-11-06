@@ -1,25 +1,35 @@
 import logo from './logo.svg';
 import './App.css';
 
-function App() {
+export default function App() {
+  
+      let myStyles = {
+    background: 'pink',
+    width: '500px',
+    margin: '10px',
+    color: 'red',
+    height: '200px',
+  };
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <div id="myDiv">
+        <h1>Hello StackBlitz!</h1>
+        <p>Start editing to see some magic happen :)</p>
+      </div>
+
+      <div
+        id="content"
+        style={{ width: '400px', background: 'yellow', height: '200px' }}
+      >
+        <h2>Welome to Style in css</h2>
+      </div>
+
+      <div id="main" style={myStyles}>
+        <h3>Welcome to React Styles </h3>
+      </div>
     </div>
   );
 }
 
-export default App;
+
