@@ -3,6 +3,8 @@ import AbcClass from "./AbcClass";
 import Chandu, { Babu, Syam } from "./Chandu";
 import { Harish, Lokesh } from "./Harish";
 import { Product1, Product2 } from "./Product";
+import Sharath from "./Sharath";
+
 import { Abi, Chandu1, Hareesh, Naveen } from "./Students";
 import XyzClass from "./XyzClass";
 
@@ -25,7 +27,7 @@ function App() {
       <Naveen/>
       <ChanduClass/>
       <XyzClass/>
-      
+      <Sharath/>
 
   
     </div>
