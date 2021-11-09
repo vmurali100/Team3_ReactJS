@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import Lokesh from './Lokesh'
 
 export default class User extends Component {
     constructor() {
@@ -16,11 +17,12 @@ export default class User extends Component {
         return (
             <div>
                 <h2>WELCOME FROM CLASS COMPONENT</h2>
-                <ul>
+                {/* <ul>
                     <li>Person First Name : {this.state.person.fname}</li>
                     <li>Person Last Name : {this.state.person.lname}</li>
                     <li>Person Email : {this.state.person.email}</li>
-                </ul>
+                </ul> */}
+                <Lokesh personInfo={this.state.person}/>
             </div>
         )
     }
