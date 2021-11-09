@@ -5,12 +5,14 @@ export default class User extends Component {
     constructor() {
         super()
         this.state = {
+            greeings:"Welcome to Class Compoent", // This is string
             person: {
                 fname: "Murali",
                 lname: "Krishna",
                 email: "murali@gmail.com",
                 mobile: 9663856625
-            }
+            }, // This is Object
+            users:["Murali","Krishna","Ram","Ravi"] // This is Array 
         }
     }
     render() {
