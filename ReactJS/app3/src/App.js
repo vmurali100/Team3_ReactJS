@@ -1,13 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
 
+import { Ramana } from './Ramana';
 export default function App() {
   
      
   
   return (
     <div>
-      
+      <Ramana/>
     </div>
   );
 }
