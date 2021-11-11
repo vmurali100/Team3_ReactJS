@@ -1,13 +1,16 @@
 import React from 'react';
+import { Abc, Ramana, Shiva } from './Examples';
 
-import { Ramana } from './Ramana';
 export default function App() {
   
      
   
   return (
     <div>
+      <Abc/>
       <Ramana/>
+      <Shiva/>
+      
     </div>
   );
 }
