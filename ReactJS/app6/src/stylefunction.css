@@ -1,0 +1,39 @@
+h2#one{
+    width:400px;
+    height: 50px;
+    margin-left: 100px;
+    background-color: rgb(203, 247, 46);
+    padding-top: 20px;
+}
+h2#two{
+    height: 50px;
+    margin-left: 100px;
+    background-color: lawngreen;
+    font-size: 30px;
+    padding-top: 20px;
+    padding-left:50px;
+    font-style: italic;
+}
+h2#three{
+    height: 50px;
+    background-color: magenta;
+    padding-top: 10px;
+    text-align: center;
+    font-variant: small-caps;
+}
+h2#four{
+    background-color: chocolate;
+    height: 50px;
+    margin-left: 100px;
+    padding-left: 40px;
+    padding-top: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h2#five{
+    background-color: cornflowerblue;
+    margin-left: 100px;
+    height: 50px;
+    padding-top: 10px;
+    font-weight: lighter;
+    font-family: cursive;
+}

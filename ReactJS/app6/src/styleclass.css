@@ -1,0 +1,52 @@
+h4#one{
+    width: 350px;
+    margin-left: 900px;
+    font-size: 30px;
+    text-align: center;
+    height: 50px;
+    padding-top: 10px;
+    border-radius: 20px;
+}
+h4#two{
+    width: 350px;
+    background-color: crimson;
+    margin-left: 900px;
+    font-size: 20px;
+    font-family: cursive;
+    text-transform: capitalize;
+    font-weight: bolder;
+    text-align: center;
+    height: 50px;
+    padding-top: 10px;
+    border-radius: 20px;
+}
+h4#three{
+   border: 1px solid blue;
+   border-radius:10px;
+   background-color: yellow;
+    margin-left: 850px;
+    font-size: 30px;
+    height: 50px;
+    padding-top: 10px;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h4#four{
+    background-color: rgb(172, 15, 172);
+  padding-top: 30px;
+    margin-left: 850px;
+    font-size: 20px;
+    text-align: center;
+   text-transform: uppercase;
+    
+    border-radius: 20px;
+}
+h4#five{
+   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 850px;
+    font-size: 30px;
+    text-align: center;
+    height: 50px;
+    padding-top: 20px;
+    border-radius: 30px;
+}

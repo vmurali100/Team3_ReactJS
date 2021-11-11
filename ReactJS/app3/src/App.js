@@ -1,12 +1,11 @@
-import Firstclass, { Secondclass } from "./Class";
+import App3 from "./Sample";
 
 
 function App() {
   return (
     <div className="App">
-      App3
-      <Secondclass/>
-      <Firstclass/>
+     <App3/>
+      
     </div>
   );
 }
