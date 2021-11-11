@@ -18,18 +18,19 @@ export default class Mani extends Component{
         render(){
         return<div>
             <h3>{this.state.message}</h3>
-            <ul>
+            <button onClick={()=>{this.setState({message:"Hello from class component"})}}>change</button>
+             {/* <ul>
                 <li>Name:{this.state.persons.name}</li>
                 <li>City:{this.state.persons.city}</li>
                 <li>Salary:{this.state.persons.sal}</li>
                 <li>Telephone:{this.state.persons.tel}</li>
             </ul>
-            <hr/>
-            <ul>
+            <hr/> */}
+            {/* <ul>
                 {this.state.products.map((products)=>{
-                    return<li> {products}</li>
+                    return<li> {products}</li> 
                 })}
-            </ul>
+            </ul> */}
         </div>
     }
 }
