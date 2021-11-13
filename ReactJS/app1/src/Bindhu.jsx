@@ -44,7 +44,7 @@ export const Studentss = () => {
         <div>
             <ul>
                 {student.map((students, i) => {
-                 return   <li key={i}>{students.name}  -{students.city}</li>
+                    return <li key={i}>{students.name}  -{students.city}</li>
                 })}
             </ul>
         </div>
