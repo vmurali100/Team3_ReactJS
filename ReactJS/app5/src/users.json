@@ -1,0 +1,92 @@
+[
+    {
+        "fname": "Lenora",
+        "lname": "Teel",
+        "tel": "(418)072-7577",
+        "address": "2269 Amet Ct",
+        "city": "Bradford",
+        "state": "LA",
+        "zip": 96636
+    },
+    {
+        "fname": "Drew",
+        "lname": "Peschke",
+        "tel": "(445)087-7737",
+        "address": "2078 Lacus Dr",
+        "city": "Schaumburg",
+        "state": "OR",
+        "zip": 22277
+    },
+    {
+        "fname": "Augustine",
+        "lname": "Sovine",
+        "tel": "(200)973-2825",
+        "address": "5185 Eros Dr",
+        "city": "Hazel Park",
+        "state": "CT",
+        "zip": 32409
+    },
+    {
+        "fname": "Elisha",
+        "lname": "Bettencourt",
+        "tel": "(368)366-5437",
+        "address": "2018 Tincidunt St",
+        "city": "South Bend",
+        "state": "AK",
+        "zip": 17329
+    },
+    {
+        "fname": "Andrew",
+        "lname": "Grossman",
+        "tel": "(716)960-4160",
+        "address": "8562 Pulvinar Ct",
+        "city": "Slate Hill",
+        "state": "MA",
+        "zip": 99359
+    },
+    {
+        "fname": "Alesia",
+        "lname": "Rubiano",
+        "tel": "(527)044-4365",
+        "address": "5521 Magna Ave",
+        "city": "Arlington",
+        "state": "GA",
+        "zip": 29475
+    },
+    {
+        "fname": "Natalie",
+        "lname": "Cook",
+        "tel": "(483)258-9596",
+        "address": "3318 Porta St",
+        "city": "Charlotte",
+        "state": "WA",
+        "zip": 41764
+    },
+    {
+        "fname": "Jeremiah",
+        "lname": "Zachary",
+        "tel": "(637)162-2335",
+        "address": "4988 Et Ln",
+        "city": "Patrick Afb",
+        "state": "MA",
+        "zip": 32236
+    },
+    {
+        "fname": "Leopoldo",
+        "lname": "Chadwick",
+        "tel": "(917)475-6380",
+        "address": "3440 Dolor Rd",
+        "city": "Winters",
+        "state": "RI",
+        "zip": 71322
+    },
+    {
+        "fname": "Lei",
+        "lname": "Belcher",
+        "tel": "(909)352-6665",
+        "address": "7942 Nec Ct",
+        "city": "Cumberland",
+        "state": "GA",
+        "zip": 42639
+    }
+]
