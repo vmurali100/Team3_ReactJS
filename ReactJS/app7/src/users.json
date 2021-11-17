@@ -1,0 +1,53 @@
+[
+    {
+        "fname": "Dennis",
+        "lname": "Schneider",
+        "city" :"Kurnool"
+    },
+    {
+        "fname": "Adom",
+        "lname": "Spataro",
+        "city" :"Kadapa"
+    },
+    {
+        "fname": "Earl",
+        "lname": "Frets",
+        "city" :"Nellore"
+
+    },
+    {
+        "fname": "Vanessa",
+        "lname": "Nimon",
+        "city" :"Chittor"
+    },
+    {
+        "fname": "Erik",
+        "lname": "Spratt",
+        "city":"Hyderabad"
+    },
+    {
+        "fname": "Joyce",
+        "lname": "Hawkins",
+        "city":"Mahaboobngar"
+    },
+    {
+        "fname": "Marek",
+        "lname": "Ticona",
+        "city" :"Rajamandri"
+    },
+    {
+        "fname": "Karolis",
+        "lname": "Welle",
+        "city" :"Guntur"
+    },
+    {
+        "fname": "Barry",
+        "lname": "Cabrera",
+        "city":"Vijayawada"
+    },
+    {
+        "fname": "Renee",
+        "lname": "Sholtz",
+        "city" :"Karimnagar"
+    }
+]
