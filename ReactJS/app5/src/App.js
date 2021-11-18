@@ -3,37 +3,38 @@ import React, { useState } from 'react';
 import './App.css';
 import  Abc, { Charan,  Charry ,Mohan } from './Charan';
 import { Parant ,Shyam}from './Parant';
+import Chandra from './Chandra';
+import Parantto from './Parantto';
 
 function App() {
-  const [emp, setemp] = useState([])
-  const newEmployee=(myemp)=>{
-    setemp(myemp)
-  }
+
+  return (
+    <div className="App">
+  <Chandra/>
+  
+
+  {/* const [emp, setemp] = useState([])
+   const newEmployee=(myemp)=>{ */}
+  {/* //   setemp(myemp)
+  // }
 //   const [alluser, setalluser] = useState([])
 //   const [allmsg,setallmsg] =useState([])
 //   const [emps, setemps] = useState([])
 //   const [message, setmessage] = useState("")
-//   const getString=(newstring)=>{
-//     setmessage(newstring)
-//   }
-//  const getemp=(emp)=>{
-//    setemps(emp)
+//   const getString=(newstring)=>{ */}
+{/* //     setmessage(newstring)
+//   } */}
+{/* //  const getemp=(emp)=>{ */}
+{/* //    setemps(emp)
 //  }
-//   const getMsg=(msgs)=>{
-//     setallmsg(msgs)
+//   const getMsg=(msgs)=>{ */}
+{/* //     setallmsg(msgs)
 //   }
-//   const getData =(user)=>{
-// setalluser(user)
-//   }
-  return (
-    <div className="App">
-      <ul>
-        {emp.map((assignEmp,i)=>{
-        return <li>{assignEmp.name} - {assignEmp.city}</li>
-        })}
-      </ul>
-      <Shyam recieveEmp={newEmployee}/>
-      <Parant/>
+//   const getData =(user)=>{ */}
+{/* // setalluser(user)
+//   } */}
+ 
+      
 {/* <h2>{message}</h2>
      <Abc recievestring={getString}/>
       
