@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, { useState } from 'react';
 import { Abc, Haritha, Ramana, Rohan, Shiva, Vinod } from './Examples';
 import './Style.css'
@@ -37,8 +38,32 @@ export default function App() {
       </div>
       <Rohan/>
      
+=======
+import logo from './logo.svg';
+import './App.css';
+import { Murali, Person, Student } from './Murali';
+import User from './User';
+import { useState } from 'react';
+
+function App() {
+  // React Hooks
+  // When Declare a vaiable , 
+  //we need to pass the value 
+  //and Function to change the calue
+  let [userMessage, setUserMessage] = useState("Welcome to App Compoent in React Hooks")
+  return (
+    <div className="App">
+      {/* <h2>Hello From Functional Component - App</h2>
+      <h2>{userMessage}</h2>
+      <button onClick={()=>{setUserMessage("Hello React Hook ... I am Changing you ...")}}>Change Message</button> */}
+      <User/>
+>>>>>>> 1be9dcc492b74e1c089712c370d5c4ba9da970c2
     </div>
   );
 }
 
+<<<<<<< HEAD
 
+=======
+export default App;
+>>>>>>> 1be9dcc492b74e1c089712c370d5c4ba9da970c2

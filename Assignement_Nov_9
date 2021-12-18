@@ -1,0 +1,9 @@
+1. Create a Class Compoenent
+2. Create a Functional Component Example : User , Person, Student,Employee
+3. Create a State In Class Compoenent
+    1. the State Should Contain a String Example : "Welcome Mesassaage"
+    2. The State Should Contain a Object 
+    3. The State Should Contain a Array
+4. Pass the State Information to Child Compoent 
+5. Acee the Props in Child Compoent 
+6. Display the data in Child Compoenent

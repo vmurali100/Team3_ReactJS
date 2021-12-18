@@ -1,4 +1,5 @@
 import logo from './logo.svg';
+<<<<<<< HEAD
 import React, { useState } from 'react';
 import './App.css';
 import  Abc, { Charan,  Charry ,Mohan } from './Charan';
@@ -57,9 +58,23 @@ function App() {
       </ul>
       <Charan recieveData={getData} /> */}
       
+=======
+import './App.css';
+import users from './users.json'
+import { Students } from './Students';
+
+function App() {
+  console.log(users)
+  return (
+    <div className="App">
+      <Students allStudents={users}/>
+>>>>>>> 1be9dcc492b74e1c089712c370d5c4ba9da970c2
     </div>
   );
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 1be9dcc492b74e1c089712c370d5c4ba9da970c2
 export default App;

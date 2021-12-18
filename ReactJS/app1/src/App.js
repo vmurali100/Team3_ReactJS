@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, { useState } from "react";
 import ChanduClass, { HareeshClass } from "../../app1/src/ChanduClass";
 import AbcClass from "./AbcClass";
@@ -59,6 +60,15 @@ function App() {
       <Sharath/> */}
 
 
+=======
+import { Chandu, Harish } from "./Harish";
+import User from "./User";
+
+function App() {
+  return (
+    <div className="App">
+      <User />
+>>>>>>> 1be9dcc492b74e1c089712c370d5c4ba9da970c2
     </div>
   );
 }
