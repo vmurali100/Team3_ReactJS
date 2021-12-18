@@ -24,6 +24,7 @@ static getDerviedStateFromProps(props,state){
     render() {
         return (
             <div>
+
                 <h2>render component</h2>
 <button type="button" onClick={this.ChangeMessage}>Click  </button>
             </div>
