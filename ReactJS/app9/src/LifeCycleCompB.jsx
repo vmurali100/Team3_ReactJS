@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
-import LifeCycleComB from './LifeCycleCompB'
 
-export default class LifecycleComA extends Component {
+export default class LifeCycleComB extends Component {
     constructor(props) {
         super(props)
 
@@ -16,8 +15,7 @@ export default class LifecycleComA extends Component {
     }
 static getDerivedStateFromProps(props,state){
     console.log("Hello from getDerivedStateFromProps")
-    // return({message:props.newMessage})
-    return null
+    return({message:props.newMessage})
 
 }
 componentDidMount() {
@@ -36,9 +34,9 @@ componentDidMount() {
         return (
             <div>
           <h1>{this.state.message}</h1>
-                <h2>Life CycleA</h2>
+                <h2>Life CycleB</h2>
 <button type="button" onClick={this.ChangeMessage}>Click  </button>
-         <LifeCycleComB/>
+
             </div>
         )
     }
