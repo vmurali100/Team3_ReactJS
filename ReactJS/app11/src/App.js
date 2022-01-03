@@ -30,8 +30,8 @@ function App() {
       <Func2/> */}
       {/* <Sample3/> */}
       {/* <Sample4/> */}
-      <Example1/>
-      <Example2/>
+      {/* <Example1/>
+      <Example2/> */}
       {/* <Sample/> */}
     {/* <Comp1/> */}
     {/* <REFcomp/>  */}
