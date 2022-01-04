@@ -18,6 +18,8 @@ import { NewHome } from './Context/Context4/NewHome';
 import { Sample4 } from './HigherOrderComponents/HOC4/Sample4';
 import Example1 from './HigherOrderComponents/HOC4/Example1';
 import Example2 from './HigherOrderComponents/HOC4/Example2';
+import Products from './Products';
+import Users from './Users';
 
 function App() {
   return (
@@ -40,7 +42,8 @@ function App() {
     {/* <Home/> */}
     {/* <Imagecontext/> */}
     {/* <NewHome/> */}
-    
+    <Products/>
+    <Users/>
 
     </div>
   );
