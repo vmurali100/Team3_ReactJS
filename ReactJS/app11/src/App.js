@@ -20,6 +20,8 @@ import Example1 from './HigherOrderComponents/HOC4/Example1';
 import Example2 from './HigherOrderComponents/HOC4/Example2';
 import Products from './Products';
 import Users from './Users';
+import Empoyees from './Empoyees';
+import Image from './Image';
 
 function App() {
   return (
@@ -44,7 +46,8 @@ function App() {
     {/* <NewHome/> */}
     <Products/>
     <Users/>
-
+<Empoyees/>
+<Image/>
     </div>
   );
 }
