@@ -10,7 +10,7 @@
         case "GET_ALL_STUDENTS":
             return state.students
         case "GET_ALL_PRODUCTS":
-            return state.products
+            return defaultValue.products
         case "GET_ALL_ITEMS":
             return state.items
         case "GET_ALL_LIST":
@@ -20,6 +20,6 @@
 
 
         default:
-          return  state;
+          return  []
     }
 }

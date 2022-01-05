@@ -7,7 +7,7 @@ const defaultValue = {
 export default function rootreducer2(state = defaultValue, action) {
     switch (action.type) {
         case "GET_ALL_CARS":
-            return state.cars
+            return defaultValue.cars
         case "GET_ALL_BIKES":
             return state.bikes
         case "GET_ALL_JEEPS":
@@ -15,6 +15,6 @@ export default function rootreducer2(state = defaultValue, action) {
         case "GET_ALL_BUS":
             return state.bus
         default:
-            return state
+            return []
     }
 }

@@ -1,10 +1,10 @@
  const defaultValue={
      functions:["ComponentA","ComponentB","ComponentC"],
      arrays:["Vegetables","Fruits","Greens","Groceries"],
-     objects:["Laptop","Mobiles","Pendrive","Headset"],
+     obj:["Laptop","Mobiles","Pendrive","Headset"],
      arrayofobjects:["Tv","Speaker","furniture","Sofa"]
  }
- export default  function reducer4(state=defaultValue, action) {
+ export default  function objectReducer(state=defaultValue, action) {
 
     switch (action) {
         case "GET_ALL_FUNCTIONS":
@@ -12,7 +12,7 @@
         case "GET_ALL_ARRAY":
             return state.arrays
         case "GET_ALL_OBJECTS":
-            return state.objects
+            return state.obj
         case "GET_ALL_ARRAYOFOBJECTS":
             return state.arrayofobjects
 
