@@ -1,16 +1,15 @@
+// const defaultData = {
+//     students: []
+// }
+// let allStudents = [Chandu]
+// export const StudentsrReducer = (state = defaultData, action) => {
+//     switch (action.type) {
+//         case GET_Students_DATA:
+//             return allStudents
 
 
-export default function CompoReduce(state,action) {
-    switch (action.data) {
-        case "PUT-Values-Students":
-            return "All student details"
-        case "PUT-Values-Subjects":
-            return "All subject details"
-
-
-
-        default:
-            return "Details"
-    }
-
-}
+//         default:
+//           return  state.students ;
+//     }
+// }
+// export default StudentsrReducer

@@ -11,8 +11,9 @@ import mainReduser from './redux/redux2/reduser2';
 import reduseRoot from './redux/redux3/reduce3';
 import ReduceComp from './redux/redux4/reduce4';
 import CompoReduce from './redux/redux5/reduce5';
+import RootReducer from './redux/redux1/reducer1';
 
-const store=createStore(rootReducer)
+const store=createStore(RootReducer)
 ReactDOM.render(
   <React.StrictMode>
     <Provider store={store} >
