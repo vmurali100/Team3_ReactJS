@@ -13,18 +13,9 @@ import ReduceComp from './redux/redux4/reduce4';
 import CompoReduce from './redux/redux5/reduce5';
 
 const store=createStore(rootReducer)
-console.log(store)
-const storevalue=createStore(mainReduser)
-console.log(storevalue)
-const storedata=createStore(reduseRoot)
-console.log(storedata)
-const storeinfo=createStore(ReduceComp)
-console.log(storeinfo)
-const storedetails=createStore(CompoReduce)
-console.log(storedetails)
 ReactDOM.render(
   <React.StrictMode>
-    <Provider store={store} storevalue={storevalue} >
+    <Provider store={store} >
     <App />
     </Provider>
   </React.StrictMode>,

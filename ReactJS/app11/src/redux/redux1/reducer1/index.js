@@ -1,3 +1,8 @@
+import { combineReducers } from "redux"
+import mainReduser from "../../redux2/reduser2"
+import reduseRoot from "../../redux3/reduce3"
+import ReduceComp from "../../redux4/reduce4"
+
 const GetData={
     products:["Books","pens","pencils"],
     users:["Mahesh","Suresh","Lokesh","Naresh"],
@@ -8,7 +13,7 @@ const GetData={
     },
     images:<img src="https://vinusimages.co/wp-content/uploads/2018/10/EG7A2390.jpgA_.jpg"  alt="" width="505px" height="500px" />,
     }
-export default function rootReducer(state=GetData,action) {
+ function rootReducer(state=GetData,action) {
     switch (action.type) {
         case "GET_all_Products":
             return "Hello from all products"
@@ -23,3 +28,9 @@ export default function rootReducer(state=GetData,action) {
         return state
     }
 }
+const rootReducer=combineReducers({
+    data:mainReduser,
+    info:reduseRoot,
+    user:ReduceComp,
+    
+})
