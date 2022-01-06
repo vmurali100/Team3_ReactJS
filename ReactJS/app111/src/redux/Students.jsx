@@ -7,7 +7,7 @@ import { getAllAtudents } from './action'
      
     
      ShowStudents=()=>{
-        console.log()
+        console.log(this.props)
      this.props.dispatch(getAllAtudents())
     }
     render(){
@@ -15,6 +15,7 @@ import { getAllAtudents } from './action'
         <div>
             <h2>Click to get the students details</h2>
             <button onClick={this.ShowStudents}>Click</button>
+
             {this.props.students.map((stu,i)=>{
                  return <h3 key={i}>{stu}</h3>
             })}
@@ -26,7 +27,7 @@ function StateToPros(state){
     console.log(state)
     
     return{
-        students:state.students
+        students:state
 
     }
 }

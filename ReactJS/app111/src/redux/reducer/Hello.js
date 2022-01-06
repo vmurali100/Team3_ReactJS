@@ -11,7 +11,7 @@ const rootReducer=(state=defaultState,action)=>{
             
     
         default:
-            return [   ]
+            return []
     }
 }
 export default rootReducer
