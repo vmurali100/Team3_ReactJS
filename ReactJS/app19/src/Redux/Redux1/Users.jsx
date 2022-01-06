@@ -30,7 +30,7 @@ class Users extends Component {
     }
     // componentDidMount(){
     //     console.log(this.props)
-    //     this.props.dispatch(getAllProducts())
+    //     this.props.dispatch(getAllUsers())
     // }
 }
 function mapStateToProps(state) {

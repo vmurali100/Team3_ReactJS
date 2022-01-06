@@ -6,12 +6,17 @@ import reducer1 from './Redux/Redux1/reducer1';
 import {Provider} from 'react-redux'
 import rootreducer2 from './Redux/Redux2/reducer';
 import reducer3 from './Redux/Redux3/reducer3';
+import Reducerfunction from './Redux/Redux4/Reducerfunction';
+import Rootreducer5 from './Redux/Redux5/Rootreducer5';
+import Reducer6 from './Redux/Redux6/Reducer6';
 
 
 // const store=createStore(reducer1)
 // const store=createStore(rootreducer2)
-const store=createStore(reducer3)
-
+// const store=createStore(reducer3)
+// const store=createStore(Reducerfunction)
+// const store=createStore(Rootreducer5)
+const store=createStore(Reducer6)
 
 ReactDOM.render(
   <React.StrictMode>
