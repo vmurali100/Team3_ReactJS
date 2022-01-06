@@ -1,5 +1,5 @@
 const defaultState={
-    students:["Chandu","Lokesh","Harish"]
+    students:["Chandu","Lokesh","Harish","Abi"]
 }
 const rootReducer=(state=defaultState,action)=>{
     console.log(state)
