@@ -1,17 +1,21 @@
 import './App.css';
-import Lokesh from './arrow';
-import { Naveen, Sankar } from './Fatarrow';
-import Hareeshclass from './Hareeshclass';
+import { Lokesh, Chandu, Hareesh,Dilip} from './Lokesh';
+import  Parent1  from './Parent1';
+import Parent2 from './Parent2';
+import Parent3 from './Parent3';
+import ParentClass3 from './ParentClass3';
 
 function App() {
   return (
     <div className="App">
-      <Lokesh/>
-
-      <Naveen/>
-      <Sankar/>
-
-      <Hareeshclass/>
+      <Lokesh />
+      <Chandu />
+      <Hareesh />
+      <Dilip />
+      <Parent1/>
+      <Parent2/>
+      <Parent3/>
+      <ParentClass3/>
     </div>
   );
 }

@@ -1,23 +1,35 @@
-import logo from './logo.svg';
 import './App.css';
+import Lifecycle3 from './Lifecycle3';
+// import LifeCycle1 from './LifeCycle1';
+// import LifeCycle2 from './LifeCycle2';
+
+// import LifeCycleComponent from './LifeCycleComponent';
+
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Lifecycle3/>
+
+      {/* <LifeCycleComponent /> */}
+      {/* <LifeCycle1/>
+      <LifeCycle2/> */}
+
+
+      {/* <Function1/>
+      <Function2/>
+      <Function3/>
+      <Function4/>
+      <Function5/>
+      <Function6/> */}
+
+      {/* <User/>
+      <Lokesh/>
+      <Hareesh/>
+      <Chandu/>
+      <Dilip/>
+      <Sai/> */}
     </div>
   );
 }

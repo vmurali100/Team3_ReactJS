@@ -10,7 +10,7 @@ export default class User extends Component {
                 lname: "s d",
                 email: "lokeshvasu63@gmail.com"
             },
-            students=["hareesh","dilip","sankar"]
+            students:["hareesh","dilip","sankar"]
         }
     }
     render() {
@@ -21,11 +21,10 @@ export default class User extends Component {
             </ul>
 
             <ul>
-                                                                    
+                {this.state.students.map((arr)=>{
+                    return<li>{arr}</li>
+                })}                                          
             </ul>
         </div>
-
-
     }
-
 }
