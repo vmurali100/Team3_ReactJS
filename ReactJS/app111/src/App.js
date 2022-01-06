@@ -4,6 +4,7 @@ import Students from './redux/Students';
 import Subjects from './redux/Subjects';
 import Users from './Redux1/Users';
 import Todos from './redux2/reducer2/babu';
+import Details from './redux2/Details';
 
 
 function App() {
@@ -12,7 +13,8 @@ function App() {
     <Students/>
      <Subjects/>
      <Users/>
-     <Todos/>
+     {/* <Todos/> */}
+     <Details/>
     </div>
   );
 }
