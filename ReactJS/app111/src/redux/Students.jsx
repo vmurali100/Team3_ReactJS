@@ -16,7 +16,7 @@ import { getAllAtudents } from './action'
             <h2>Click to get the students details</h2>
             <button onClick={this.ShowStudents}>Click</button>
 
-            {this.props.students.map((stu,i)=>{
+            {this.props.students.students.map((stu,i)=>{
                  return <h3 key={i}>{stu}</h3>
             })}
         </div>

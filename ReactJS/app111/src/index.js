@@ -2,12 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import {createStore} from 'redux'
+import { createStore} from 'redux'
 import {Provider} from 'react-redux'
 import reportWebVitals from './reportWebVitals';
-import rootReducer from './redux/reducer/Hello';
+// import rootReducer from './redux/reducer/Hello';
+import Reducer from './redux/reducer/Hello';
 
-const store=createStore(rootReducer)
+const store=createStore(Reducer)
 console.log(store)
 
 ReactDOM.render(
