@@ -7,6 +7,7 @@ function App() {
       <h2>Hello React2</h2>
       
       <SampleClass/>
+       
 
 
 

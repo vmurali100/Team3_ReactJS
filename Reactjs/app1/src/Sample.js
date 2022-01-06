@@ -2,7 +2,7 @@ function Sample(){
     return (<h2>Hello...I am from Harish Sample component</h2>)
 }
 
-// import { Sample1 } from "./sample1"
+// import { Sample1 } from "./Sample1"
 
 export default Sample
 

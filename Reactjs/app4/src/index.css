@@ -11,3 +11,12 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+#myDiv{
+  padding-bottom: 10px;
+  border: 1px solid;
+  width: 500px;
+  height: 200px;
+  margin: 10px;
+  text-align: center;
+  background-color: blue;
+}

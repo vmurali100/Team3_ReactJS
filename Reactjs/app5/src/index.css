@@ -11,3 +11,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+#Header{
+  background-color: blue;
+  width: 500px;
+  border: 1px solid;
+  height: 200px;
+
+}

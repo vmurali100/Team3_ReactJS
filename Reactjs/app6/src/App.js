@@ -1,23 +1,21 @@
-import logo from './logo.svg';
+import Harish from './Harish';
 import './App.css';
+import { useState } from 'react';
+import { Lokesh } from './Lokesh';
+import { Chandu } from './Chandu';
+import { Raju } from './Raju';
 
 function App() {
+  let [Define,setDefine]=useState("welcome to app component")
+  
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Harish/>
+      <h2>{Define}</h2>
+      <button onClick={()=>{setDefine("hello lokesh component")}}>changing</button>
+       <Lokesh/>
+       <Chandu/>
+       <Raju/>
     </div>
   );
 }
