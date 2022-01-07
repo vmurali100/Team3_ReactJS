@@ -1,13 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
-import Students from './redux/reducer/Students';
-import Products from './Redux1/Products';
+import Comments from './redux/reducer/Comments';
 
 function App() {
   return (
     <div className="App">
-      <Students/>
-      <Products/>
+      <Comments/>
     </div>
   );
 }
