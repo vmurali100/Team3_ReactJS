@@ -8,3 +8,8 @@ export function getAllSubjects(){
         type:"GET_ALL_SUBJECTS"
     }
 }
+export function deleteStudentsAction(){
+    return{
+        type:"DELETE_STUDENTS"
+    }
+}
