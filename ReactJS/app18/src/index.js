@@ -10,11 +10,11 @@ import rootreducer3 from './Redux/Redux3/Reducer3/reducer3';
 import rootreducer2 from './Redux/Redux2/Reducer2/reducer2';
 import Rootreducers from './Redux/Redux5/Reducer5/reducer5';
 
-// const store=createStore(reducer)
+const store=createStore(reducer)
 // const store=createStore(rootreducer)
 // const store=createStore(reducer4)
 // const store=createStore(rootreducer3)
-const store=createStore(rootreducer2)
+// const store=createStore(rootreducer2)
 // console.log(store)
 ReactDOM.render(
   <React.StrictMode>

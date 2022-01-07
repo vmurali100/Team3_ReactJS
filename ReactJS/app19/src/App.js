@@ -1,5 +1,7 @@
 import Users from "./Redux/Redux1/Users";
 import Login from "./Redux/Redux10/Login";
+import Names from "./Redux/Redux11/Names";
+import StudentDetails from "./Redux/Redux12/StudentDetails";
 import Todo from "./Redux/Redux2/Todo";
 import Photos from "./Redux/Redux3/Photos";
 import Albums from "./Redux/Redux4/Albums";
@@ -13,7 +15,7 @@ import Carts from "./Redux/Redux9/Carts";
 function App() {
   return (
     <div className="App">
-      {/* <Users/> */}
+      <Users/>
       {/* <Todo/> */}
       {/* <Photos/> */}
       {/* <Albums/> */}
@@ -22,7 +24,9 @@ function App() {
      {/* <Prodcuts/> */}
      {/* <UsersStore/> */}
      {/* <Carts/> */}
-     <Login/>
+     {/* <Login/> */}
+     {/* <Names/> */}
+     {/* <StudentDetails/> */}
     </div>
   );
 }

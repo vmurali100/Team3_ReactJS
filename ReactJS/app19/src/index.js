@@ -13,9 +13,11 @@ import Reducer7 from './Redux/Redux7/Reducer7';
 import Rootreducer8 from './Redux/Redux8/Rootreducer8';
 import Reducerfun9 from './Redux/Redux9/Reducerfun9';
 import Reducer10 from './Redux/Redux10/Reducer10';
+import Reducer11 from './Redux/Redux11/Reducer11';
+import Reducer12 from './Redux/Redux12/Reducer12';
 
 
-// const store=createStore(reducer1)
+const store=createStore(reducer1)
 // const store=createStore(rootreducer2)
 // const store=createStore(reducer3)
 // const store=createStore(Reducerfunction)
@@ -24,7 +26,9 @@ import Reducer10 from './Redux/Redux10/Reducer10';
 // const store= createStore(Reducer7)
 // const store= createStore(Rootreducer8)
 // const store=createStore(Reducerfun9)
-const store=createStore(Reducer10)
+// const store=createStore(Reducer10)
+// const store=createStore(Reducer11)
+// const store=createStore(Reducer12)
 ReactDOM.render(
   <React.StrictMode>
     <Provider store={store}>

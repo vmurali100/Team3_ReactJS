@@ -1,25 +1,20 @@
+ let  products=["Accessories","Clothes","Toys","Gifts","Bags"]
  const defaultValue={
-     products:["Accessories","Clothes","Toys","Gifts","Bags"],
+    products:products,
      students:["Abhi","Aishu","Sakthi","Priya"],
-     items:[],
-     list:[],
-     service:[]
+    
  }
  export default function reducer(state=defaultValue,action) {
     switch (action.type) {
-        case "GET_ALL_STUDENTS":
-            return state.students
+      
         case "GET_ALL_PRODUCTS":
             return defaultValue.products
-        case "GET_ALL_ITEMS":
-            return state.items
-        case "GET_ALL_LIST":
-            return state.list
-        case "GET_ALL_SERVICE":
-                return state.service
-
+        case "DELETE_PRODUCTS":
+            let deleteproducts = [...state]
+            deleteproducts.pop()
+            return deleteproducts
 
         default:
-          return  []
+          return defaultValue.products
     }
 }

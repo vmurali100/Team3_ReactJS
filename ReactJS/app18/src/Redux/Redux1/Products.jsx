@@ -1,26 +1,29 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
-import { getAllProducts } from './Actions/Action'
+
+import { deleteProducts, getAllProducts } from './Actions/Action'
 class Products extends Component {
     constructor(props) {
         super(props)
-    
-        this.state = {
-             
-        }
+
     }
-    getproducts=()=>{
-        return  this.props.dispatch(getAllProducts())
+    getproducts = () => {
+        this.props.getUsersAction()
+        // this.props.dispatch(getAllProducts())
+    }
+    deleteproducts = () => {
+        this.props.deleteUserAction()
     }
     render(props) {
         console.log(this.props)
         return (
             <div>
                 <button onClick={this.getproducts}>Click to get data</button>
-                {this.props.products && this.props.products.map((pro,i)=>{
-                    return <p key={i}>{pro}</p>
+                <button onClick={this.deleteproducts}>Delete data</button>
+                {this.props.products && this.props.products.map((product,i) => {
+                    return <p key={i}>{product}</p>
                 })}
-                
+
             </div>
         )
     }
@@ -31,7 +34,13 @@ class Products extends Component {
 }
 function mapStateToProps(state) {
     return {
-        products:state
+        products: state
     }
 }
-export default connect(mapStateToProps)(Products)
+function mapDispatchToProps(dispatch) {
+    return {
+        getUsersAction:()=> dispatch(getAllProducts()),
+        deleteUserAction: (product) => dispatch(deleteProducts(product))
+    }
+}
+export default connect(mapStateToProps, mapDispatchToProps)(Products)

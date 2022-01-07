@@ -8,6 +8,11 @@ export function getAllProducts() {
         type:"GET_ALL_PRODUCTS"
     }
 }
+export function deleteProducts() {
+    return {
+        type:"DELETE_PRODUCTS"
+    }
+}
 // function getAllItems() {
 //     return{
 //         type:"GET_ALL_ITEMS"
