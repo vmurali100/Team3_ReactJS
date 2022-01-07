@@ -1,6 +1,7 @@
 import { combineReducers } from "redux"
 import usersReducer from "../../Redux1/reduc/Chandu"
 import Todos from "../../redux2/reducer2/babu"
+import commentReducer from "../../redux3/reduce3/abc"
 
 const defaultState={
     students:[],
@@ -26,6 +27,7 @@ const rootReducer=(state=defaultState,action)=>{
 const Reducer=combineReducers({
     students:rootReducer,
     users:usersReducer,
-    todos:Todos
+    todos:Todos,
+    Comment:commentReducer
 })
 export default Reducer
