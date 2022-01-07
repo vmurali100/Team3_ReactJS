@@ -9,6 +9,10 @@ import reducer3 from './Redux/Redux3/reducer3';
 import Reducerfunction from './Redux/Redux4/Reducerfunction';
 import Rootreducer5 from './Redux/Redux5/Rootreducer5';
 import Reducer6 from './Redux/Redux6/Reducer6';
+import Reducer7 from './Redux/Redux7/Reducer7';
+import Rootreducer8 from './Redux/Redux8/Rootreducer8';
+import Reducerfun9 from './Redux/Redux9/Reducerfun9';
+import Reducer10 from './Redux/Redux10/Reducer10';
 
 
 // const store=createStore(reducer1)
@@ -16,8 +20,11 @@ import Reducer6 from './Redux/Redux6/Reducer6';
 // const store=createStore(reducer3)
 // const store=createStore(Reducerfunction)
 // const store=createStore(Rootreducer5)
-const store=createStore(Reducer6)
-
+// const store=createStore(Reducer6)
+// const store= createStore(Reducer7)
+// const store= createStore(Rootreducer8)
+// const store=createStore(Reducerfun9)
+const store=createStore(Reducer10)
 ReactDOM.render(
   <React.StrictMode>
     <Provider store={store}>
