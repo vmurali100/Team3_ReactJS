@@ -11,7 +11,7 @@ import { deleteStudentsAction, getAllAtudents } from './action'
      this.props.dispatch(getAllAtudents())
     }
     deleteStudent=()=>{
-        console.log(this.props)
+        // console.log(this.props)
         this.props.deleteStudent()
     }
     render(){

@@ -6,6 +6,7 @@ import Users from './Redux1/Users';
 import Todos from './redux2/reducer2/babu';
 import Details from './redux2/Details';
 import Comments from './redux3/Comments';
+import Albums from './Redux4/Albums';
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
      <Users/>
      {/* <Todos/> */}
      <Details/>
+     <Albums/>
      <Comments/>
     </div>
   );
