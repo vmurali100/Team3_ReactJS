@@ -18,9 +18,9 @@ import Reducer12 from './Redux/Redux12/Reducer12';
 
 
 // const store=createStore(reducer1)
-const store=createStore(rootreducer2)
+// const store=createStore(rootreducer2)
 // const store=createStore(reducer3)
-// const store=createStore(Reducerfunction)
+const store=createStore(Reducerfunction)
 // const store=createStore(Rootreducer5)
 // const store=createStore(Reducer6)
 // const store= createStore(Reducer7)
