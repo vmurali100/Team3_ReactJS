@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
-import { getAllAlbums } from './action4/action4'
+import { createNewAlbum, getAllAlbums } from './action4/action4'
 
 class Albums extends Component {
     constructor(props) {
@@ -19,11 +19,15 @@ class Albums extends Component {
         newAlbum[e.target.name] = e.target.value;
         this.setState({ albums: newAlbum })
     }
-    handleCreate = () => {
+      handleCreate = () => {
         console.log(this.state.albums)
         this.props.createAlbum(this.state.albums)
     }
+//     getAlbums=()=>{
+// this.props.dispatch(getAllAlbums())
+//     }
     render() {
+        console.log(this.props)
         return (
             <div>
                 <h2>Hello from Albums</h2>
@@ -36,22 +40,24 @@ class Albums extends Component {
                     <input type="text" name="title" id="title" value={this.state.title} onChange={(e) => { this.handleChange(e) }} /><br />
                     <button type="button" onClick={this.handleCreate}>Add albums</button>
                 </form>
-               {/* {this.props.albums.albums.map((alb)=>{
-                   return <h4>{alb.title}</h4>
+               {/* { this.props.albums.map((alb)=>{
+                   return <h4 >{alb.title}</h4>
                })} */}
             </div>
         )
     }
 }
 function mapStateToProps(state) {
+    console.log(state)
     return{
         albums:state
     }
 }
-function dispatchProps(dispatch) {
+function mapDispatchToProps(dispatch) {
     return{
-        createAlbum:(album)=>dispatch(getAllAlbums(album))
+        getAlbums:()=>dispatch(getAllAlbums()),
+        createAlbum:(albums)=>dispatch(createNewAlbum(albums))
     }
     
 }
-export default connect(mapStateToProps,dispatchProps)(Albums)
+export default connect(mapStateToProps,mapDispatchToProps)(Albums)
