@@ -5,7 +5,7 @@ import Student from './redux/Student';
 function App() {
   return (
     <div className="App">
-     
+     <Student/>
     </div>
   );
 }

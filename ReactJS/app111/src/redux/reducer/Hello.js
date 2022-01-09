@@ -1,7 +1,7 @@
 import { combineReducers } from "redux"
 import usersReducer from "../../Redux1/reduc/Chandu"
 import Todos from "../../redux2/reducer2/babu"
-import commentReducer from "../../redux3/reduce3/abc"
+
 import albumReducer from "../../Redux4/reducer4/xyz"
 
 const defaultState={ 
@@ -31,7 +31,7 @@ const Reducer=combineReducers({
     students:rootReducer,
     users:usersReducer,
     todos:Todos,
-    Comment:commentReducer,
+    
     albums:albumReducer
 })
 export default Reducer

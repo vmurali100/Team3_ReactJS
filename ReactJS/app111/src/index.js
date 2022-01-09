@@ -8,7 +8,7 @@ import reportWebVitals from './reportWebVitals';
 // import rootReducer from './redux/reducer/Hello';
 import Reducer from './redux/reducer/Hello';
 import albumReducer from './Redux4/reducer4/xyz';
-import commentReducer from './redux3/reduce3/abc';
+
 
 const store=createStore(Reducer)
 console.log(store)
