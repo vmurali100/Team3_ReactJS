@@ -38,7 +38,7 @@ this.props.dispatch(getAllAlbums())
                     <input type="text" name="userdata"  value={this.state.userdata} onChange={(e) => { this.handleChange(e) }} /><br />
                     <label htmlFor="title">Title:</label>
                     <input type="text" name="title" id="title" value={this.state.title} onChange={(e) => { this.handleChange(e) }} /><br />
-                    <button type="button" onClick={this.handleCreate}>Add albums</button>
+                    <button type="button" onClick={()=>this.handleCreate}>Add albums</button>
                 </form>
                {/* { this.props.albums.map((alb)=>{
                    return <h4 >{alb.title}</h4>

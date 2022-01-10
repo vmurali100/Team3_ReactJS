@@ -7,6 +7,7 @@ import Todos from './redux2/reducer2/babu';
 import Details from './redux2/Details';
 import Albums from './Redux4/Albums';
 import Comments from './redux3/Comments';
+import Products from './Reducer5/Products';
 
 
 function App() {
@@ -18,7 +19,8 @@ function App() {
       <Todos />
       <Details />
       <Albums /> */}
-<Comments/>
+{/* <Comments/> */}
+<Products/>
     </div>
   );
 }
