@@ -5,29 +5,29 @@ import { createAlbum, deleteAlbumActions, getAllAlbums } from './action'
 class Albums extends Component {
     constructor(props) {
         super(props)
-    
+
         this.state = {
-             albums:{
-                 username:"",
-                 email:"",
-                 age:""
-             }
+            albums: {
+                username: "",
+                email: "",
+                age: ""
+            }
         }
     }
-    
+
     getAlbums = () => {
         this.props.getAlbumData()
     }
-    deleteAlbum=(album)=>{
+    deleteAlbum = (album) => {
         this.props.deleteAlbumData(album)
-        // console.log(this.props)
+        console.log(this.props)
     }
-    handleChange=(e)=>{
-        let newAlbum={...this.state.albums}
-        newAlbum[e.target.name]=e.target.value
-        this.setState({albums:newAlbum})
+    handleChange = (e) => {
+        let newAlbum = { ...this.state.albums }
+        newAlbum[e.target.name] = e.target.value
+        this.setState({ albums: newAlbum })
     }
-    CreatePosts=()=>{
+    CreatePosts = () => {
         this.props.createAlbumAction(this.state.albums)
     }
     render() {
@@ -52,7 +52,7 @@ class Albums extends Component {
 
                 {/* <button onClick={this.getAlbums}>get albums</button>
                 <button onClick={this.deleteAlbum}>delete Album</button> */}
-               
+
                 {/* <p>lokesh</p> */}
                 {this.props.albums && this.props.albums.map((album) => {
                     return <ul>
@@ -60,7 +60,7 @@ class Albums extends Component {
                         <li>{album.username}</li>
                         <li>{album.email}</li>
                         <li>{album.age}</li>
-                        <button type="button" onClick={()=>this.deleteAlbum(album)}>delete</button>
+                        <button onClick={() => this.deleteAlbum(album)}>delete</button>
                     </ul>
                 })}
 
@@ -77,8 +77,8 @@ function mapToStateProps(state) {
 function mapDispatchToProps(dispatch) {
     return {
         getAlbumData: () => dispatch(getAllAlbums()),
-        deleteAlbumData:(albums)=>dispatch(deleteAlbumActions(albums)),
-        createAlbumAction:(albums)=>dispatch(createAlbum(albums))
+        deleteAlbumData: (albums) => dispatch(deleteAlbumActions(albums)),
+        createAlbumAction: (albums) => dispatch(createAlbum(albums))
     }
 }
 export default connect(mapToStateProps, mapDispatchToProps)(Albums)

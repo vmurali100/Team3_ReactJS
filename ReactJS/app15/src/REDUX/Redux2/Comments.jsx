@@ -47,7 +47,7 @@ class Comments extends Component {
                     <input type="text" name="email" value={this.state.email} onChange={(e) => {
                         this.handleChange(e)
                     }} /><br />
-                    <label htmlFor="password">age</label>
+                    <label htmlFor="password">password</label>
                     <input type="text" name="password" value={this.state.password} onChange={(e) => {
                         this.handleChange(e)
                     }} /><br />
@@ -60,7 +60,7 @@ class Comments extends Component {
                         <li>{comment.username}</li>
                         <li>{comment.email}</li>
                         <li>{comment.password}</li>
-                        <button type="button" onClick={this.DeleteComments}>delete</button>
+                        <button onClick={()=>this.DeleteComments(comment)}>delete</button>
                     </ul>
                 })}
 
