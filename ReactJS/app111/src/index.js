@@ -11,11 +11,13 @@ import albumReducer from './Redux4/reducer4/xyz';
 import CommentReducer from './redux3/reducer';
 import ProductsReducer from './Reducer5/reducer';
 import reduxReducer from './redux6/reduce';
+import photosReducer from './redux7/reducer';
 
 
 // const store=createStore(Reducer)
 // const store=createStore(ProductsReducer )
-const store=createStore(reduxReducer)
+// const store=createStore(reduxReducer)
+const store=createStore(photosReducer)
 console.log(store)
 
 ReactDOM.render(
