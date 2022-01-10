@@ -8,9 +8,11 @@ import reportWebVitals from './reportWebVitals';
 // import rootReducer from './redux/reducer/Hello';
 import Reducer from './redux/reducer/Hello';
 import albumReducer from './Redux4/reducer4/xyz';
+import CommentReducer from './redux3/reducer';
 
 
-const store=createStore(Reducer)
+// const store=createStore(Reducer)
+const store=createStore(CommentReducer)
 console.log(store)
 
 ReactDOM.render(

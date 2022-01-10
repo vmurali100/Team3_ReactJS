@@ -23,9 +23,9 @@ class Albums extends Component {
         console.log(this.state.albums)
         this.props.createAlbum(this.state.albums)
     }
-//     getAlbums=()=>{
-// this.props.dispatch(getAllAlbums())
-//     }
+    getAlbums=()=>{
+this.props.dispatch(getAllAlbums())
+    }
     render() {
         console.log(this.props)
         return (

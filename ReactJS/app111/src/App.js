@@ -6,18 +6,19 @@ import Users from './Redux1/Users';
 import Todos from './redux2/reducer2/babu';
 import Details from './redux2/Details';
 import Albums from './Redux4/Albums';
+import Comments from './redux3/Comments';
 
 
 function App() {
   return (
     <div className="App">
-      <Students />
+      {/* <Students />
       <Subjects />
       <Users />
       <Todos />
       <Details />
-      <Albums />
-
+      <Albums /> */}
+<Comments/>
     </div>
   );
 }

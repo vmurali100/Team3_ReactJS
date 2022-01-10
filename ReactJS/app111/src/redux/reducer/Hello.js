@@ -27,11 +27,11 @@ const rootReducer=(state=defaultState,action)=>{
             return defaultState.students
     }
 }
-const Reducer=combineReducers({
-    students:rootReducer,
-    users:usersReducer,
-    todos:Todos,
+// const Reducer=combineReducers({
+//     students:rootReducer,
+//     users:usersReducer,
+//     todos:Todos,
     
-    albums:albumReducer
-})
-export default Reducer
+//     albums:albumReducer
+// })
+export default rootReducer
