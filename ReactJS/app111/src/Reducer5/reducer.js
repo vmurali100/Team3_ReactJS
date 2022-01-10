@@ -18,12 +18,13 @@ let products = []
 const defaultState = {
     products: products
 }
+// created seperated store
 const ProductsReducer = (state = defaultState, action) => {
     switch (action.type) {
         case "GET_ALL_PRODUCTS":
             return state.products
         case "DELETE_PRODUCT":
-        //  let dltPrdt=[...state] 
+        //  let dltPrdt=[...state]     
         //  dltPrdt.pop()
         //  return dltPrdt
         case "CREATE_PRODUCT":

@@ -10,10 +10,12 @@ import Reducer from './redux/reducer/Hello';
 import albumReducer from './Redux4/reducer4/xyz';
 import CommentReducer from './redux3/reducer';
 import ProductsReducer from './Reducer5/reducer';
+import reduxReducer from './redux6/reduce';
 
 
 // const store=createStore(Reducer)
-const store=createStore(ProductsReducer )
+// const store=createStore(ProductsReducer )
+const store=createStore(reduxReducer)
 console.log(store)
 
 ReactDOM.render(

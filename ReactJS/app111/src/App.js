@@ -8,6 +8,7 @@ import Details from './redux2/Details';
 import Albums from './Redux4/Albums';
 import Comments from './redux3/Comments';
 import Products from './Reducer5/Products';
+import Cart from './redux6/Cart';
 
 
 function App() {
@@ -20,7 +21,8 @@ function App() {
       <Details />
       <Albums /> */}
 {/* <Comments/> */}
-<Products/>
+{/* <Products/> */}
+<Cart/>
     </div>
   );
 }
