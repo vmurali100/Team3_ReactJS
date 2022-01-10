@@ -42,7 +42,7 @@ let comments=[]
               return newCMT.filter((comment)=> comment !== action.payload)
       default:
         return defaultState.comments
-
+ 
   }
   }
   export default CommentReducer

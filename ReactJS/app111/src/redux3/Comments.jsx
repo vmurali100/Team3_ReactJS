@@ -29,14 +29,14 @@ class Comments extends Component {
         // console.log(this.props)
         this.props.createCommentData(this.state.comments)
     }
-    dltComment=()=>{
- this.props.dltCommentData()
+    dltComment=(comments)=>{
+ this.props.dltCommentData(comments)
     }
    
     render() {
         console.log(this.props)
         return (
-            <div>
+           <div>
                 <h2>Hello</h2>
                 <form >
                     <label htmlFor="id">Id</label>
@@ -50,7 +50,8 @@ class Comments extends Component {
                 <button onClick={this.deleteData}>delete</button> */}
                 {this.props.comments.map((cmt) => {
                     // return <p>Id:{cmt.id}  <br /> {cmt.name}</p>
-                    return <h4>{cmt.id} <br />{cmt.name} -- <button onClick={()=>this.dltComment}>dltCmt</button><br />
+                    return <h4>{cmt.id} <br />{cmt.name} --
+                     <button onClick={()=>this.dltComment(cmt)}>dltCmt</button><br />
                      </h4>
 
                 })}
