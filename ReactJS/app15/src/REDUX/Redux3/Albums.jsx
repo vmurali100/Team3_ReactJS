@@ -55,8 +55,9 @@ class Albums extends Component {
 
                 {/* <p>lokesh</p> */}
                 {this.props.albums && this.props.albums.map((album) => {
+                    {/* <li>{album.title}</li> */ }
                     return <ul>
-                        {/* <li>{album.title}</li> */}
+
                         <li>{album.username}</li>
                         <li>{album.email}</li>
                         <li>{album.age}</li>

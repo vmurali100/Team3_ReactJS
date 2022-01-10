@@ -1,5 +1,6 @@
 import './App.css';
-import Albums from './REDUX/Redux3.jsx/Albums';
+import Users from './REDUX/Redux4/Users';
+// import Albums from './REDUX/Redux3/Albums';
 // import Comments from './REDUX/Redux2/Comments';
 // import Posts from './REDUX/Redux1/Posts';
 
@@ -8,7 +9,8 @@ function App() {
     <div className="App">
       {/* <Posts/> */}
       {/* <Comments/> */}
-      <Albums/>
+      {/* <Albums/> */}
+      <Users/>
     
     </div>
   );
