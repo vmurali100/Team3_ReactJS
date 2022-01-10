@@ -3,14 +3,19 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import rootReducer from './REDUX/redux1/Reducer';
 import {createStore} from 'redux'
-import { Provider } from 'react-redux';
+// import PostReducer from './REDUX/Redux1/reducer';
+import {Provider} from 'react-redux'
+// import Albumreducer from './REDUX/Redux3.jsx/reducer';
+import commentsReducer from './REDUX/Redux2/reducer';
 
 
-
-const store=createStore(rootReducer)
+// const store=createStore(PostReducer)
+// console.log(store)
+const store=createStore(commentsReducer)
 console.log(store)
+// const store=createStore(Albumreducer)
+// console.log(store)
 ReactDOM.render(
   <React.StrictMode>
     <Provider store={store}>

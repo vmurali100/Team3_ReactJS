@@ -1,15 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
-import Student from './REDUX/redux1/Student';
-import Employees from './REDUX/redux1/Employees';
-// import { Color } from './Color';
+// import Albums from './REDUX/Redux3.jsx/Albums';
+import Comments from './REDUX/Redux2/Comments';
+// import Posts from './REDUX/Redux1/Posts';
 
 function App() {
   return (
     <div className="App">
-      {/* <Color/> */}
-      {/* <Student/> */}
-      {/* <Employees/> */}
+      {/* <Posts/> */}
+      <Comments/>
+      {/* <Albums/> */}
+    
     </div>
   );
 }
