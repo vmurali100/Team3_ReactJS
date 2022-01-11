@@ -12,6 +12,7 @@ import Cart from './redux6/Cart';
 import Photos from './redux7/Photos';
 
 
+
 function App() {
   return (
     <div className="App">
@@ -25,6 +26,7 @@ function App() {
 {/* <Products/> */}
 {/* <Cart/> */}
 <Photos/>
+
     </div>
   );
 }

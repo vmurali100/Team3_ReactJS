@@ -18,7 +18,7 @@ import photosReducer from './redux7/reducer';
 // const store=createStore(ProductsReducer )
 // const store=createStore(reduxReducer)
 const store=createStore(photosReducer)
-console.log(store)
+// console.log(store)
 
 ReactDOM.render(
   <React.StrictMode>

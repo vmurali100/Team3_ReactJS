@@ -1,11 +1,11 @@
 import logo from './logo.svg';
-import './App.css';
-import Student from './redux/Student';
+import './App.css'
+import Users from './redux/Users';
 
 function App() {
   return (
     <div className="App">
-     <Student/>
+    <Users/>
     </div>
   );
 }
