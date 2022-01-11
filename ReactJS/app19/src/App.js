@@ -1,3 +1,5 @@
+import User from "./FULL CRUD APPLICATION/NORMAL REACTAPPLICATION/User";
+import UsersEx from "./FULL CRUD APPLICATION/NORMAL REACTAPPLICATION/UserEx";
 import Users from "./Redux/Redux1/Users";
 import Login from "./Redux/Redux10/Login";
 import Names from "./Redux/Redux11/Names";
@@ -18,7 +20,7 @@ function App() {
       {/* <Users/> */}
       {/* <Todo/> */}
       {/* <Photos/> */}
-      <Albums/>
+      {/* <Albums/> */}
       {/* <Comments/> */}
      {/* <Post/> */}
      {/* <Prodcuts/> */}
@@ -27,6 +29,8 @@ function App() {
      {/* <Login/> */}
      {/* <Names/> */}
      {/* <StudentDetails/> */}
+     <User/>
+     {/* <UsersEx/> */}
     </div>
   );
 }

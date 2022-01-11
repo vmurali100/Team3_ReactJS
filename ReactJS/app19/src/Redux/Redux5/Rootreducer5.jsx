@@ -36,15 +36,27 @@ let comments=[
       },
      
   ]
+// let comments=[]
 const defaultValue={
     comments:comments
+    // comments:comments
 }
  const Rootreducer5= (state=defaultValue,action) => {
     switch (action.type) {
         case "GET_ALL_COMMENTS":
             return defaultValue.comments
-           
-    
+        case "DELETE_COMMENT":
+          let deleteComment=[...state]
+          deleteComment.pop()
+          return deleteComment
+        case "CREATE_COMMENTS":
+          let newComment=[...state]
+          newComment.push(action.payload)
+          return newComment
+        
+        case "DELETE_COMMENTSDATA":
+            let deleteComments=[...state]
+           return deleteComments.filter((comments)=> comments !== action.payload) 
         default:
             return []
     }
