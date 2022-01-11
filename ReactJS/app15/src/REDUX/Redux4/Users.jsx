@@ -25,13 +25,13 @@ class Users extends Component {
     handleChange = (e) => {
         let newuser = { ...this.state.user }
         newuser[e.target.name] = e.target.value
-        this.setState({user: newuser})
+        this.setState({ user: newuser })
     }
-    createUsers=()=>{
+    createUsers = () => {
         console.log(this.props)
         this.props.createUserData(this.state.user)
     }
-    deleteusersData=(user)=>{
+    deleteusersData = (user) => {
         this.props.deleteUser(user)
     }
     render() {
@@ -61,7 +61,7 @@ class Users extends Component {
                         <li>{user.fname}</li>
                         <li>{user.age}</li>
                         <li>{user.qualification}</li>
-                        <button onClick={()=>this.deleteusersData(user)}>delete</button>
+                        <button onClick={() => this.deleteusersData(user)}>delete</button>
                     </ul>
                 })}
                 {/* <button onClick={this.getUsers} type="button">get users</button>
@@ -80,8 +80,8 @@ function mapDispatchToProps(dispatch) {
     return {
         getUserData: () => dispatch(GetAllusers()),
         DeleteUserData: () => dispatch(DeleteUserActions()),
-        createUserData:(user)=>dispatch(CreateusersAction(user)),
-        deleteUser:(user)=>dispatch(DeleteAction(user))
+        createUserData: (user) => dispatch(CreateusersAction(user)),
+        deleteUser: (user) => dispatch(DeleteAction(user))
     }
 }
 export default connect(mapToUserProps, mapDispatchToProps)(Users)
