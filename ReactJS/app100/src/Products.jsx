@@ -51,8 +51,7 @@ export default class Products extends Component {
                     <input type="text" name="name"  value={this.state.product.name} onChange={(e)=>this.handleChange(e)}/>
                    {this.state.index ? (<button type='button' onClick={this.handleUpdate}>Update</button>) :
                    ( <button onClick={this.handleAdd} type='button'>Add</button>) }
-                     {/* <button onClick={this.handleAdd} type='button'>Add</button>
-                     <button type='button' onClick={this.handleUpdate}>Update</button> */}
+                    
                 </form>
                 {this.state.products.map((prdt,i)=>
                  <p > <span onClick={()=>this.handleEdit(prdt,i)}>{prdt.name} </span>
