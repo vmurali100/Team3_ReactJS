@@ -5,19 +5,16 @@ import { Provider } from 'react-redux';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Reducerfunction from './redux/reducer/Reducerfunction';
+import Reducer from './redux/reducer';
 
-
-
-
-const store=createStore(Reducerfunction)
+const store =createStore(Reducer)
 console.log(store)
 ReactDOM.render(
   <React.StrictMode>
     <Provider store={store}>
     <App />
     </Provider>
- 
+    
   </React.StrictMode>,
   document.getElementById('root')
 );

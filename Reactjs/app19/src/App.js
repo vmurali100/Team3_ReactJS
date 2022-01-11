@@ -1,11 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
-import Comments from './redux/reducer/Comments';
+import Albums from './redux/reducer/Albums';
+
 
 function App() {
   return (
     <div className="App">
-      <Comments/>
+      <Albums/>
     </div>
   );
 }
