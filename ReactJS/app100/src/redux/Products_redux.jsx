@@ -29,7 +29,8 @@ class Products_redux extends Component {
         this.setState({
             product: {
                 name: ""
-            }
+            },
+            index: null
         })
     }
     handleEdit = (product, i) => {
@@ -39,8 +40,8 @@ class Products_redux extends Component {
         // let allProduct = [...this.state.products]
         // allProduct[this.state.index] = this.state.product
         // this.setState({ products: allProduct, index: null })
-        let updateProduct={...this.state.product}
-        updateProduct['id']=this.state.index
+        let updateProduct = { ...this.state.product }
+        updateProduct['id'] = this.state.index
         this.props.updateProductFunc(updateProduct)
         this.handleClear()
     }
@@ -57,15 +58,15 @@ class Products_redux extends Component {
                     <label htmlFor="name">Product Name:</label>
                     <input type="text" name="name" value={this.state.product.name} onChange={(e) => this.handleChange(e)} />
                     {this.state.index ? (<button type='button' onClick={this.handleUpdate}>Update</button>) :
-                        (<button onClick={() => addProductFunc(this.state.product)} type='button'>Add</button>)}
+                        (<button onClick={() => { addProductFunc(this.state.product); this.handleClear() }} type='button'>Add</button>)}
 
                 </form>
                 {this.props.products && this.props.products.map((prdt, i) =>
-                    <p > <span onClick={() => this.handleEdit(prdt, i)}>{prdt.name} </span>
-                        -<span onClick={() => deleteProductFunc(prdt)}>X</span> </p>)}
+                    <p key={i}> <span onClick={() => this.handleEdit(prdt, i)}>{prdt.name} </span>
+                        -<span onClick={() => { deleteProductFunc(prdt) }}>X</span> </p>)}
             </div>
         )
-    } 
+    }
 }
 function mapStateToProps(state) {
     console.log(state)

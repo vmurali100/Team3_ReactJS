@@ -2,7 +2,7 @@
         
 //     case "UPDATE_PRODUCTS":
  
-//     case "DELETE_PRODUCTS":
+//     case "":
 export function addProductAction(product) {
     return{
         type:"ADD_PRODUCTS",
@@ -12,13 +12,13 @@ export function addProductAction(product) {
 }
 export function deleteProductAction(product) {
     return{
-        type:"UPDATE_PRODUCTS",
+        type:"DELETE_PRODUCTS",
         payload:product
     }
 }
 export function updateProductAction(product) {
     return{
-        type:"DELETE_PRODUCTS",
+        type:"UPDATE_PRODUCTS",
         payload:product
     }
 }
