@@ -31,22 +31,20 @@ export default class User extends Component {
         this.setState({
             users: {
                 fName: "",
-                age: "",
-                email: ""
+                
             },
         })
     }
     handleEdit = (users, i) => {
         this.setState({ users, index:i})
-        console.log()
+        console.log(i)
     }
-    UpdateUser = () => {
-        let newUsers = [...this.state.user]
-        newUsers[this.state.index] = this.state.users
-        this.setState({ user: newUsers})
-        // console.log(newUsers)
-        this.handleClear()
-    }
+    handleUpdate = () => {
+        let AllUsers = [...this.state.user];
+        AllUsers[this.state.index] = this.state.users;
+        this.setState({ user: AllUsers, index: null });
+        this.handleClear();
+      };
     deleteUser = (users) => {
         let newUsers = [...this.state.user]
         this.setState({ user: newUsers.filter((usr) => usr.fName !== users.fName) })
@@ -63,9 +61,10 @@ export default class User extends Component {
                     <input type="text" name="age" value={this.state.users.age} onChange={(e) => { this.changeValues(e) }} /> <br />
                     <label htmlFor="email">Enter email :</label> <br />
                     <input type="text" name="email" value={this.state.users.email} onChange={(e) => { this.changeValues(e) }} /> <br /> <br /> */}
-                    {this.state.index ? (<button type="button" onClick={this.UpdateUser}> Update</button>) : (<button type="button" onClick={this.createUser} >Submit </button>)}
-
-
+                    {this.state.index  !== null ? (<button type="button" onClick={this.handleUpdate}> Update</button>) : (<button type="button" onClick={this.createUser} >Submit </button>)}
+                   {/* { console.log(this.state.index)} */}
+                    {/* <button type="button" onClick={this.handleUpdate}> Update</button>
+                    <button type="button" onClick={this.createUser} >Submit </button> */}
                 </form>
                 {this.state.user.map((us,i) => (
                      

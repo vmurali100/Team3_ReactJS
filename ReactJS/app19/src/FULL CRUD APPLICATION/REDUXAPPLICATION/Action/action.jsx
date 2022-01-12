@@ -1,15 +1,19 @@
-export function getAllUser() {
+export function getAllUser(user) {
+    console.log(user)
     return {
-        type:"GET_ALL_USERS"
+        type:"GET_ALL_USERS",
+        payload:user
     }
 }
-export function deleteUser() {
+export function deleteUser(user) {
     return {
-        type:"DELETE_ALL_USERS"
+        type:"DELETE_ALL_USERS",
+        payload:user
     }
 }
-export function UpdateUser() {
+export function UpdateUser(user) {
     return {
-        type:"UPDATE_ALL_USERS"
+        type:"UPDATE_ALL_USERS",
+        payload:user
     }
 }
