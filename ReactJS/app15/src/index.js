@@ -3,8 +3,8 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-// import {createStore} from 'redux'
-// import {Provider} from 'react-redux'
+import { createStore } from 'redux'
+import { Provider } from 'react-redux'
 // import ReducerPhotos from './REDUX/Redux5/reducer';
 // import UserReducer from './REDUX/Redux4/reducer';
 // import commentsReducer from './REDUX/Redux2/reducer';
@@ -12,6 +12,7 @@ import reportWebVitals from './reportWebVitals';
 // import PostReducer from './REDUX/Redux1/reducer';
 // import Albumreducer from './REDUX/Redux3/reducer';
 
+  import rootReducer from './REDUX/Redux6/reducer';
 
 // const store=createStore(PostReducer)
 // console.log(store)
@@ -20,17 +21,19 @@ import reportWebVitals from './reportWebVitals';
 // const store=createStore(Albumreducer)
 // console.log(store)
 
-  // const store=createStore(UserReducer)
-  // console.log(store)
+// const store=createStore(UserReducer)
+// console.log(store)
 
-  // const store=createStore(ReducerPhotos)
-  // console.log(store)
+// const store=createStore(ReducerPhotos)
+// console.log(store)
 
+const store=createStore(rootReducer)
+console.log(store)
 ReactDOM.render(
   <React.StrictMode>
-    {/* <Provider store={store}> */}
-    <App />
-    {/* </Provider> */}
+    <Provider store={store}>
+      <App />
+    </Provider>
   </React.StrictMode>,
   document.getElementById('root')
 );

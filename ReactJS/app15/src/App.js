@@ -1,5 +1,6 @@
 import './App.css';
-import Albums1 from './REDUX/Redux3/Albums1';
+// import Albums1 from './REDUX/Redux3/Albums1';
+import Users_Redux from './REDUX/Redux6/Users_Redux';
 // import Comments1 from './REDUX/Redux2/Comments1';
 // import Users1 from './REDUX/Redux4/Users1';
 // import Photos from './REDUX/Redux5/Photos';
@@ -16,11 +17,11 @@ function App() {
       {/* <Albums/> */}
       {/* <Users/> */}
       {/* <Photos/> */}
-      <Users1/>
-      <Comments1/>
+      {/* <Users1/> */}
+      {/* <Comments1/> */}
 
-      <Albums1/>
-      
+      {/* <Albums1/> */}
+      <Users_Redux/>
     
     </div>
   );
