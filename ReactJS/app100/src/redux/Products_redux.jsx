@@ -56,8 +56,8 @@ class Products_redux extends Component {
             <div>
                 <form >
                     <label htmlFor="name">Product Name:</label>
-                    <input type="text" name="name" value={this.state.product.name} onChange={(e) => this.handleChange(e)} />
-                    {this.state.index ? (<button type='button' onClick={this.handleUpdate}>Update</button>) :
+                     <input type="text" name="name" value={this.state.product.name} onChange={(e) => this.handleChange(e)} />
+                    {this.state.index !==null ? (<button type='button' onClick={this.handleUpdate}>Update</button>) :
                         (<button onClick={() => { addProductFunc(this.state.product); this.handleClear() }} type='button'>Add</button>)}
 
                 </form>
