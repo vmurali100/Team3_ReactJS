@@ -61,7 +61,7 @@ class Products_redux extends Component {
                         (<button onClick={() => { addProductFunc(this.state.product); this.handleClear() }} type='button'>Add</button>)}
 
                 </form>
-                {this.props.products && this.props.products.map((prdt, i) =>
+                { this.props.products.map((prdt, i) =>
                     <p key={i}> <span onClick={() => this.handleEdit(prdt, i)}>{prdt.name} </span>
                         -<span onClick={() => { deleteProductFunc(prdt) }}>X</span> </p>)}
             </div>
