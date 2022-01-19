@@ -22,6 +22,7 @@ import cartsReducer from './Carts_redux_thunk/reducer';
 // const store=createStore(photosReducer,applyMiddleware(thunk))
 // const store =createStore(todosReducer,applyMiddleware(thunk))
 // const store=createStore(productsReducer,applyMiddleware(thunk))
+// const store=createStore(cartsReducer,applyMiddleware(thunk))
 const store=createStore(cartsReducer,applyMiddleware(thunk))
 
 ReactDOM.render(

@@ -10,6 +10,7 @@ import Photos from './Photos_redux_thunk/Photos';
 import Todos from './Todos_redux_thunk/Todos';
 import Products1 from './Product_redux_Thunk/Products1';
 import Carts from './Carts_redux_thunk/Carts';
+import Sports from './Sports_redux_thunk/Sports';
 
 
 function App() {
@@ -24,7 +25,8 @@ function App() {
     {/* <Photos/> */}
     {/* <Todos/> */}
     {/* <Products1/> */}
-    <Carts/>
+    {/* <Carts/> */}
+    <Sports/>
     </div>
   );
 }
