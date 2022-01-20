@@ -23,7 +23,7 @@ export const Header = () => {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ms-auto">
           { navlinks.map((nav)=>{
-            <li className="nav-item">
+            return <li className="nav-item">
               <a className="nav-link text-uppercase active" >
                 <Link to={`/${nav}`}>{nav}</Link>
               </a>
