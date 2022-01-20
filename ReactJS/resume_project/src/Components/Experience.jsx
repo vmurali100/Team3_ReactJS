@@ -9,7 +9,7 @@ export const Experience = () => {
           <h2 className="text-uppercase lined">Experience</h2>
         </header>
         
-        <ul className="timeline">
+        {/* <ul className="timeline">
             
               <li className="timeline-item ms-3 pb-4">
                 <div className="timeline-arrow"></div>
@@ -52,7 +52,7 @@ export const Experience = () => {
                   </div>
                 </div>
               </li>
-        </ul>
+        </ul> */}
       </div>
     </section>
 

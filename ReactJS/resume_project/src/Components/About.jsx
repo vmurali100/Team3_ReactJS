@@ -1,7 +1,18 @@
-import React from 'react';
+import axios from 'axios';
+import React,{useState} from 'react';
+import { useEffect } from 'react';
+
 
 export const About = () => {
+  const [about,setAbout]=useState({})
+  useEffect(()=>{
+    axios.get("http://localhost:3000/about").then((res)=>{
+      console.log(res.data);
+   setAbout(res.data)
+    })
+  })
   return <div>
+    
           <section className="py-5 bg-light" id="about">
       <div className="container py-5">
         <header className="mb-5">

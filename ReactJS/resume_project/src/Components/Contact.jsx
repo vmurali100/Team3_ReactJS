@@ -1,6 +1,14 @@
-import React from 'react';
+import axios from 'axios';
+import React,{useState} from 'react';
+import { useEffect } from 'react';
 
 export const Contact = () => {
+  const [contact, setcontact] = useState([]);
+  useEffect(()=>{
+    axios.get("http://localhost:3000/contact").then((res)=>{
+    setcontact(res)
+    })
+  })
   return <div>
       <section className="bg-light py-5" id="contact">
       <div className="container py-5">
