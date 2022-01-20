@@ -1,7 +1,17 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import {Link} from "react-router-dom";
-
+import axios from 'axios'
 export const Header = () => {
+    const [navlinks,shownavlinks]=useState([])
+    useEffect(() => {
+    axios.get("http://localhost:3000/navlinks") .then((res)=>{
+        console.log(res.data);
+        shownavlinks(res.data)
+    }) 
+    }, []);
+    
+    
+    
     return <div>
         <header className="header">
             <nav className="navbar navbar-light navbar-expand-lg fixed-top" id="navbar">
@@ -12,6 +22,16 @@ export const Header = () => {
                     <button className="navbar-toggler navbar-toggler-end" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><i className="fas fa-bars"></i></button>
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav ms-auto">
+                            {navlinks.map((links)=>{
+                                return <li className="nav-item">
+                                    <a  className="nav-link text-uppercase active">
+                                    <Link to={`/${links}`}>{links}</Link> 
+
+                                    </a>
+                                </li>
+                            })}
+                        </ul>
+                        {/* <ul className="navbar-nav ms-auto">
                             <li className="nav-item"><a className="nav-link text-uppercase active">
                             <Link to="/">Home</Link>  </a></li>
                             <li className="nav-item"><a className="nav-link text-uppercase" >
@@ -24,7 +44,7 @@ export const Header = () => {
                             <Link to="/experience">Experience</Link></a></li>
                             <li className="nav-item"><a className="nav-link text-uppercase" >
                             <Link to="/contact">Contact</Link></a></li>
-                        </ul>
+                        </ul> */}
                     </div>
                 </div>
             </nav>
