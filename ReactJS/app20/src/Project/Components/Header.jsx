@@ -9,8 +9,10 @@ export const Header = () => {
         shownavlinks(res.data)
     }) 
     }, []);
-    
-    
+    //add to db.json
+    // {
+    //     "navlinks":["home","about","expertise","education","experience","contact"]
+    //   }
     
     return <div>
         <header className="header">
