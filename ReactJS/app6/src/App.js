@@ -1,13 +1,12 @@
 import './App.css';
-import { Button, Button1, Button10, Button11, Button2, Button3, Button4, Button5, Button6, Button7, Button8, Button9 } from './Button';
-import { Gajendra, Somu } from './Somu';
-import Naveen from './Naveen';
-import Sankar from './Sankar';
-import  Dilip  from './Dilip';
-import React,{ useState } from 'react';
-import Childinfo from './Childinfo';
-import Parent from './Parent';
-import Lokesh from './Lokesh';
+// import { Button, Button1, Button10, Button11, Button2, Button3, Button4, Button5, Button6, Button7, Button8, Button9 } from './Button';
+// import { Gajendra, Somu } from './Somu';
+// import Naveen from './Naveen';
+// import Sankar from './Sankar';
+// import React,{ useState } from 'react';
+// import Childinfo from './Childinfo';
+// import Parent from './Parent';
+// import Lokesh from './Lokesh';
 function App() {
   // let [message, changemessage] = useState("welcome to react js")
   // const [showComp, setShowComp] = useState(false)
@@ -19,7 +18,7 @@ function App() {
   //}
   return (
     <div className="App">
-      <Lokesh/>
+      {/* <Lokesh/> */}
       {/* <Parent/> */}
       {/* <ul>
         {allUsers.map((user,i)=>{

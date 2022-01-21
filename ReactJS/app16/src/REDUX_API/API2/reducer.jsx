@@ -4,11 +4,11 @@ const defaultState={
     todos:{}
 }
 function todosReducer(state=defaultState,action){
-    switch (action) {
+    switch (action.type) {
         case GET_ALL_TODOS:
-           return state.todos 
+           return action.payload 
         default:
-            return state.todos
+            return defaultState.todos
     }
 }
 export default todosReducer
