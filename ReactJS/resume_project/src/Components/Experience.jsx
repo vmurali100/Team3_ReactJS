@@ -1,6 +1,14 @@
-import React from 'react';
+import axios from 'axios';
+import React,{useState,useEffect} from 'react';
+
 
 export const Experience = () => {
+  const [exp, setexp] = useState([]);
+  useEffect(()=>{
+    axios.get("http://localhost:3000/experience").then((res)=>{
+      setexp(res.data)
+    })
+  })
   return <div>
      <section className="py-5" id="experience">
       <div className="container py-5">
@@ -9,9 +17,25 @@ export const Experience = () => {
           <h2 className="text-uppercase lined">Experience</h2>
         </header>
         
-        {/* <ul className="timeline">
-            
+        <ul className="timeline">
+            {exp.map((e)=>{
+             return(
               <li className="timeline-item ms-3 pb-4">
+              <div className="timeline-arrow"></div>
+              <div className="row gx-0 gy-4">
+                <div className="col-lg-5">
+                  <p className="fw-bold mb-2 text-primary text-sm">{e.year} </p>
+                  <h2 className="h5 mb-0 text-uppercase">{e.company}</h2>
+                  <p className="text-sm mb-0">{e.role}</p><span className="small text-muted">{e.location}</span>
+                </div>
+                <div className="col-lg-7">
+                  <p className="text-muted">{e.des}</p>
+                </div>
+              </div>
+            </li>
+             )
+            })}
+              {/* <li className="timeline-item ms-3 pb-4">
                 <div className="timeline-arrow"></div>
                 <div className="row gx-0 gy-4">
                   <div className="col-lg-5">
@@ -51,8 +75,8 @@ export const Experience = () => {
                     <p className="text-muted">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea.</p>
                   </div>
                 </div>
-              </li>
-        </ul> */}
+              </li> */}
+        </ul>
       </div>
     </section>
 

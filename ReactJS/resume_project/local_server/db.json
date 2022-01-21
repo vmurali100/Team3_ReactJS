@@ -5,12 +5,86 @@
         "about",
         "experience",
         "education",
-        "expertice"
+        "expertise"
     ],
     "about": {
         "title": "Innovative solutions",
         "p1": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est.",
          "p2":"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est."    
     },
-    "contact":["website","phone","location","email"]
+    "contact":[
+        {
+            "content":"Location",
+            "data":"Tirupati"
+        },
+        {
+            "content":"Phone",
+            "data":"8886574567"
+        },
+        {
+            "content":"Website",
+            "data":"www.google.com"
+        },
+        {
+            "content":"Email",
+            "data":"chandu@gmail.com"
+        }
+    ],
+    "education":[
+        {
+            "year":"2015-2018",
+            "course":"MCA",
+            "university":"SV University",
+            "location" :"Tirupati",
+            "description":"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea."
+        },
+        {
+            "year":"2012-2015",
+            "course":"Graduation",
+            "university":"Rayalaseema University",
+            "location":"Kurnool",
+            "description":"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea."
+        },
+        {
+            "year":"2010-2012",
+            "course":"Inter",
+            "university":"Rayalaseema University",
+            "location":"Kurnool",
+            "description":"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea."
+        },
+        {
+            "year":"2001-2010",
+            "course":"secondery",
+            "university":"Rayalaseema University",
+            "location":"Kurnool",
+            "description":"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea."
+        }
+    ],
+    "experience":[
+        {
+            "year" : "2014 - Present " ,
+            "company" : "Microsoft inc." ,
+            "role" : "Senior Interface Designer" ,
+            "location" : "Portland, OR" ,
+            "des" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, seddiam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam etjusto duo dolores et ea rebum. Stet clita kasd gubergren, no sea."
+        
+        } ,
+        {
+            "year" : "2014 - 2010" ,
+            "company" : "Facebook inc." ,
+            "role" : "Senior Interface Designer" ,
+            "location" : "Portland, OR" ,
+            "des" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, seddiam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam etjusto duo dolores et ea rebum. Stet clita kasd gubergren, no sea."
+        
+        } ,
+        {
+            "year" : "2009 - 2010 " ,
+            "company" : "Google inc." ,
+            "role" : "Senior Interface Designer" ,
+            "location" : "Portland, OR" ,
+            "des" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, seddiam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam etjusto duo dolores et ea rebum. Stet clita kasd gubergren, no sea."
+        
+        } 
+    ]
+   
 }

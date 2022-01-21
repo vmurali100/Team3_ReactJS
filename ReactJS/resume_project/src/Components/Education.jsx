@@ -1,6 +1,15 @@
+import axios from 'axios';
 import React from 'react';
+import { useEffect } from 'react';
+import { useState } from 'react';
 
 export const Education = () => {
+  const[edu,setEdu]=useState([])
+  useEffect(()=>{
+    axios.get("http://localhost:3000/education").then((res)=>{
+     setEdu(res.data)
+    })
+  })
   return <div>
       <section className="py-5 bg-light" id="education">
       <div className="container py-5">
@@ -9,7 +18,25 @@ export const Education = () => {
           <h2 className="text-uppercase lined">Education</h2>
         </header>
         <ul className="timeline">
-    
+          {edu.map((educate)=>{
+          return (
+            <li className="timeline-item ms-3 pb-4">
+                <div className="timeline-arrow"></div>
+                <div className="row gx-0 gy-4">
+                  <div className="col-lg-5">
+                    <p className="fw-bold mb-2 text-primary text-sm">{educate.year} </p>
+                    <h2 className="h5 mb-0 text-uppercase">{educate.cource}</h2>
+                    <p className="text-sm mb-0">{educate.university}</p><span className="small text-muted">{educate.location}</span>
+                  </div>
+                  <div className="col-lg-7">
+                    <p className="text-muted">{educate.description}</p>
+                  </div>
+                </div>
+              </li>
+
+          )
+          })}
+{/*     
               <li className="timeline-item ms-3 pb-4">
                 <div className="timeline-arrow"></div>
                 <div className="row gx-0 gy-4">
@@ -50,7 +77,7 @@ export const Education = () => {
                     <p className="text-muted">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea.</p>
                   </div>
                 </div>
-              </li>
+              </li> */}
         </ul>
       </div>
     </section>

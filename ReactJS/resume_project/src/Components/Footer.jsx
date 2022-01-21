@@ -6,7 +6,7 @@ export const Footer = () => {
       <div className="container text-center py-5">
         <div className="row px-4">
           <div className="col-lg-7 mx-auto">
-            <h2 className="text-uppercase mb-0">Jason Doe </h2>
+            <h2 className="text-uppercase mb-0">Chandu G </h2>
             <h6 className="text-primary text-uppercase mb-0 letter-spacing-3">Front End Web Developer</h6>
             <p className="text-muted my-4">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore.</p>
             <ul className="list-inline mb-0">
