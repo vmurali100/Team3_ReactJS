@@ -5,6 +5,10 @@ import {
   Route,
   Link
 } from "react-router-dom";
+import { Albums } from "./API/Albums";
+import { Comments } from "./API/Comments";
+import { Navbar } from "./API/Navbar";
+import { User } from "./API/User";
 // import { Contact } from "./React-router/Contact";
 // import { Home } from "./React-router/Home";
 // import { Services } from "./React-router/Services";
@@ -48,8 +52,8 @@ function App() {
    <Contact/>
    <Footer/> */}
 
-      <BrowserRouter>
-        <Header />
+      {/* <BrowserRouter>
+        <Header /> */}
         {/* <Sectiom /> */}
         {/* <About /> */}
         {/* <Expertise />
@@ -58,7 +62,7 @@ function App() {
         <Contact /> */}
        
         
-          <Routes>
+          {/* <Routes>
             <Route path="/" element={<Sectiom/>}> </Route>
       <Route path="/about" element={<About/>}></Route>
       <Route path="/expertise" element={<Expertise/>}></Route>
@@ -68,7 +72,31 @@ function App() {
 
           </Routes>
           <Footer />
-        </BrowserRouter>
+        </BrowserRouter> */}
+
+      {/* <User/> */}
+      
+      {/* <Navbar/> */}
+      <BrowserRouter>
+      <nav>
+        <Link to="/">Home</Link> |
+        <Link to="/users">Users</Link>|
+        <Link to="/comment">Comments</Link>|
+        <Link to="/album">Albums</Link>|
+        {/* <Link to="contact">Contact</Link>|
+        <Link to="contact">Contact</Link>| */}
+      </nav>
+        <Routes>
+          <Route path="/users" element={<User/>}></Route>
+          <Route path="/comment" element={<Comments/>}></Route>
+          <Route path="/album" element={<Albums/>}></Route>
+          {/* <Route path="/users" element={<User/>}></Route>
+          <Route path="/users" element={<User/>}></Route> */}
+
+        </Routes>
+      
+      </BrowserRouter>
+        
     </div>
   );
 }
