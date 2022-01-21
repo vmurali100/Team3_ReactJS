@@ -1,3 +1,5 @@
 {
-    "apilinks":["albums","comments","posts","photos","todos","users"]
+    "apilinks":["albums","comments","posts","photos","todos","users"],
+    "storelinks":["carts","products","fake_users"],
+    "textlinks":["employee","students","person"]
 }
