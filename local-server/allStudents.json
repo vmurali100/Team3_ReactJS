@@ -1,0 +1,50 @@
+{
+    "allStudents": [
+        {   
+            "id":"001",
+            "name":"Hareesh",
+            "contact":"7639960153",
+            "qualification":"BE",
+            "passedOut":"2019",
+            "address":"paradarami"
+
+        },
+        {   
+            "id":"002",
+            "name":"Raju",
+            "contact":"9182844890",
+            "qualification":"B.com",
+            "passedOut":"2020",
+            "address":"chittoor"
+
+        },
+        {   
+            "id":"003",
+            "name":"Surya",
+            "contact":"8106615852",
+            "qualification":"B.com",
+            "passedOut":"2021",
+            "address":"chittoor"
+
+        },
+        {   
+            "id":"004",
+            "name":"Dena",
+            "contact":"9640526503",
+            "qualification":"B.com",
+            "passedOut":"2020",
+            "address":"chittoor"
+
+        },
+        {   
+            "id":"005",
+            "name":"Sai",
+            "contact":"9640526503",
+            "qualification":"B.com",
+            "passedOut":"2020",
+            "address":"chittoor"
+
+        },
+
+    ]
+}

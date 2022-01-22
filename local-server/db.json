@@ -1,0 +1,14 @@
+{
+  "users": [
+    {
+      "fname": "lokesh",
+      "email": "lokeshvasu63@gmail.com",
+      "contact": "7327777777",
+      "address": "patrapalli",
+      "qualification": "degree",
+      "passedout": "2020",
+      "description": "completed",
+      "id": 1
+    }
+  ]
+}

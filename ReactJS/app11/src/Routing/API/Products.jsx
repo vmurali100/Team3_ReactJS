@@ -13,7 +13,8 @@ export const Products = () => {
     {/* {products.map((prd)=>{
           return <li><i>{prd.title}</i></li>
       })} */}
-    <table className="table table-striped">
+    <table class="table table-dark table-striped">
+      <div className="container">
       <thead>
         <tr>
           <th scope="col">id</th>
@@ -23,24 +24,21 @@ export const Products = () => {
         </tr>
       </thead>
       <tbody>
-        <tr>
-          {products.map((prd) => {
-            return (
-              <div>
-                <tr>
-                  <th scope="row">1</th>
-                  <td>{prd.id}</td>
-                  <td>{prd.title}</td>
-                  <td>{prd.description}</td>
-                  <td><img src={prd.image} alt="" width="50px" height="50px" /></td>
-                </tr>
-              </div>
-            )
+        {products.map((prd) => (
 
-          })}
+          <tr>
+            <td>{prd.id}</td>
+            <td>{prd.title}</td>
+            <td>{prd.description}</td>
+            <td><img src={prd.image} alt="" width="50px" height="50px" /></td>
+          </tr>
 
-        </tr>
+
+        ))}
+
       </tbody>
+      </div>
+      
     </table>
   </div>
 };
