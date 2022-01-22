@@ -12,6 +12,7 @@ import { Class } from "./router/Components/Class";
 import { Home } from "./router/Components/Home";
 import { Main } from "./router/Components/Main";
 import { Students } from "./router/Components/Students";
+import { Studentdetails } from "./router/Studentdetails";
 
 function App() {
   return (
@@ -19,17 +20,17 @@ function App() {
  
 
       <BrowserRouter>
-      <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
-      <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
-        <span class="fs-4">Simple header</span>
+      <header className="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+      <a href="/" className="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+        <span className="fs-4">React Router</span>
       </a>
 
-      <ul class="nav nav-pills">
-        <li class="nav-item" class="nav-link "><a href="#"  aria-current="page"><Link to="/">Home</Link></a></li>
-        <li class="nav-item"><a href="#" class="nav-link"><Link to="/main">Main</Link></a></li>
-        <li class="nav-item"><a href="#" class="nav-link"><Link to="/class">Class</Link></a></li>
-        <li class="nav-item"><a href="#" class="nav-link"> <Link to="/students">Students</Link></a></li>
-        {/* <li class="nav-item"><a href="#" class="nav-link">About</a></li> */}
+      <ul className="nav nav-pills">
+        <li className="nav-item" className="nav-link "><a href="#"  aria-current="page"><Link to="">Home</Link></a></li>
+        <li className="nav-item"><a href="#" className="nav-link"><Link to="/main">Main</Link></a></li>
+        <li className="nav-item"><a href="#" className="nav-link"><Link to="/className">Class</Link></a></li>
+        <li className="nav-item"><a href="#" className="nav-link"> <Link to="/students">Students</Link></a></li>
+        {/* <li className="nav-item"><a href="#" className="nav-link"><Link to="/students/:students_details">students_details</Link></a></li> */}
       </ul>
     </header>
 
@@ -37,8 +38,9 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="main" element={<Main />} />
-          <Route path="class" element={<Class />} />
+          <Route path="className" element={<Class />} />
           <Route path="students" element={<Students />} />
+          <Route path="students/:name" element={<Studentdetails/>} />
         </Routes>
       </BrowserRouter>,
 

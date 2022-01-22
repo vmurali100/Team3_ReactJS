@@ -1,0 +1,28 @@
+{
+  "studentsdetails":[
+    {
+      "id":"1",
+      "name":"abi",
+      "email":"abi@gmail.com",
+      "city":"chennai"
+    },
+    {
+      "id":"2",
+      "name":"Chandu",
+      "email":"chandu@gmail.com",
+      "city":"Kurnool"
+    },
+    {
+      "id":"3",
+      "name":"Harish",
+      "email":"hari@gmail.com",
+      "city":"Chittore"
+    },
+    {
+      "id":"4",
+      "name":"lokesh",
+      "email":"lokesh@gmail.com",
+      "city":"Bangalore"
+    }
+  ]
+}
