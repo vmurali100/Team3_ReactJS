@@ -18,13 +18,13 @@ import { Todos } from "./API/Todos";
 import { User } from "./API/User";
 import { Username } from "./API/Username";
 import { Usersstore } from "./API/Usersstore";
-// import { Contact } from "./React-router/Contact";
-// import { Home } from "./React-router/Home";
-// import { Services } from "./React-router/Services";
+import { Contact } from "./React-router/Contact";
+import { Home } from "./React-router/Home";
+import { Services } from "./React-router/Services";
 import "./css/custom.css"
 import "./css/style.default.css"
 import { About } from "./Project/Components/About";
-import { Contact } from "./Project/Components/Contact";
+// import { Contact } from "./Project/Components/Contact";
 import { Education } from "./Project/Components/Education";
 import { Experience } from "./Project/Components/Experience";
 import { Expertise } from "./Project/Components/Expertise";
@@ -32,23 +32,28 @@ import { Footer } from "./Project/Components/Footer";
 
 import { Header } from "./Project/Components/Header";
 import { Sectiom } from "./Project/Components/Sectiom";
+import { Person } from "./React-router/Person";
+import { Persondetails } from "./React-router/Persondetails";
 
 function App() {
   return (
     <div className="App">
-      {/* <BrowserRouter>
-     <nav>`~
+      <BrowserRouter>
+     <nav>
         <Link to="/">Home</Link> |
-        <Link to="services">Services</Link>|
-        <Link to="contact">Contact</Link>
+        <Link to="/services">Services</Link>|
+        <Link to="/contact">Contact</Link>|
+        <Link to="/person">Person</Link>|
       </nav>
     <Routes>
-      <Route path="/" element={<Home/>}> </Route>
-      <Route path="/services" element={<Services/>}></Route>
-      <Route path="/contact" element={<Contact/>}></Route>
-     
+      <Route path="" element={<Home/>}> </Route>
+      <Route path="services" element={<Services/>}></Route>
+      <Route path="contact" element={<Contact/>}></Route>
+      <Route path="person" element={<Person/>}></Route>
+      <Route path="person/:persondetails" element={<Persondetails/>}></Route>
+
     </Routes>
-  </BrowserRouter> */}
+  </BrowserRouter>
 
 
       {/* Projects */}
@@ -86,10 +91,10 @@ function App() {
       {/* <User/> */}
       
       {/* <Navbar/> */}
-      <BrowserRouter>
+      {/* <BrowserRouter>
       <nav>
         <Link to="/">Home</Link> |
-        <Link to="/users">Users</Link>|
+        <Link to="/">Users</Link>|
         <Link to="/comment">Comments</Link>|
         <Link to="/album">Albums</Link>|
         <Link to="/photos">Photos</Link>|
@@ -104,7 +109,7 @@ function App() {
 
       </nav>
         <Routes>
-          <Route path="/users" element={<User/>}></Route>
+          <Route path="" element={<User/>}></Route>
           <Route path="/comment" element={<Comments/>}></Route>
           <Route path="/album" element={<Albums/>}></Route>
           <Route path="/photos" element={<Photos/>}></Route>
@@ -119,7 +124,7 @@ function App() {
 
         </Routes>
       
-      </BrowserRouter>
+      </BrowserRouter> */}
         
     </div>
   );

@@ -1,0 +1,43 @@
+{
+  "users": [
+    {
+      "id": 3,
+      "username": "",
+      "email": "john@gmail.com",
+      "password": "",
+      "address": {
+        "houseno": "33",
+        "street": "Nallur, Pollachi",
+        "city": "Coimbatore",
+        "state": "TAMIL NADU",
+        "zip": "642005"
+      }
+    },
+    {
+      "id": 4,
+      "username": "",
+      "email": "john@gmail.com",
+      "password": "",
+      "address": {
+        "houseno": "1",
+        "street": "Nallur, Pollachi",
+        "city": "Coimbatore",
+        "state": "TAMIL NADU",
+        "zip": "642005"
+      }
+    },
+    {
+      "id": 5,
+      "username": "snyder",
+      "email": "",
+      "password": "",
+      "address": {
+        "houseno": "",
+        "street": "",
+        "city": "",
+        "state": "",
+        "zip": ""
+      }
+    }
+  ]
+}
