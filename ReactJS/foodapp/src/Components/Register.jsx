@@ -25,14 +25,36 @@ export const Register = () => {
     // console.log(newUser);
     axios.post("http://localhost:3000/users", user).then((res) => {
       console.log("post updated")
+      localStorage.setItem("users",JSON.stringify(user))
 
     })
     setUsers(newUser)
   }
   const getValues = () => {
     console.log(user);
+    console.log(setUser);
+    var user = setUser()
+    window.location.href="login"
     
   }
+  // const validate=()=> {
+  //   var formvalid=true
+  //   var user = setUser()
+    // for(a in user){
+    //   if(a!= "email"){
+    //     if(user[a]==""){
+    //     formvalid=false
+    //   }
+    //   }
+    //   else{
+    //     const pattern = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+    //     if(!pattern.test(user[a])){
+    //       formvalid=false;
+    //       console.log("Invalid email")
+    //     }
+    //    }
+    //   }
+    // }
   const handleValues = (e) => {
     let newUser = { ...user }
     newUser[e.target.name] = e.target.value
@@ -56,7 +78,7 @@ export const Register = () => {
         <div className="formcontainer">
           <div className="mb-3">
             <label htmlFor="id" className="form-label">ID</label>
-            <input type="number" className="form-control" name="id" value={user.id} aria-describedby="emailHelp" onChange={(e) => { handleValues(e) }} />
+            <input type="number" className="form-control" name="id" value={user.id} aria-describedby="emailHelp" onChange={(e) => { handleValues(e) }}  />
           </div>
           <div className="mb-3">
             <label htmlFor="username" className="form-label">UserName</label>
@@ -64,7 +86,8 @@ export const Register = () => {
           </div>
           <div className="mb-3">
             <label htmlFor="email" className="form-label">Email</label>
-            <input type="email" className="form-control" name="email" value={user.email} onChange={(e) => { handleValues(e) }} />
+            <input type="email" className="form-control" name="email" value={user.email} onChange={(e) => { handleValues(e) }}
+             />
           </div>
           <div className="mb-3">
             <label htmlFor="password" className="form-label">Password</label>
@@ -73,11 +96,11 @@ export const Register = () => {
           <div className="address">
             <div className="mb-3">
               <label htmlFor="houseno" className="form-label">House No</label>
-              <input type="number" className="form-control" name="houseno" value={user.address.houseno} onChange={(e) => { handleAddressChange(e) }} />
+              <input type="number" className="form-control" name="houseno" value={user.address.houseno} onChange={(e) => { handleAddressChange(e) }}  />
             </div>
             <div className="mb-3">
               <label htmlFor="street " className="form-label">Street</label>
-              <input type="text" className="form-control" name="street" value={user.address.street} onChange={(e) => { handleAddressChange(e) }} />
+              <input type="text" className="form-control" name="street" value={user.address.street} onChange={(e) => { handleAddressChange(e) }}  />
             </div>
             <div className="mb-3">
               <label htmlFor="city" className="form-label">City</label>
@@ -85,11 +108,11 @@ export const Register = () => {
             </div>
             <div className="mb-3">
               <label htmlFor="state" className="form-label">State</label>
-              <input type="text" className="form-control" name="state" value={user.address.state} onChange={(e) => { handleAddressChange(e) }} />
+              <input type="text" className="form-control" name="state" value={user.address.state} onChange={(e) => { handleAddressChange(e) }}  />
             </div>
             <div className="mb-3">
               <label htmlFor="zip" className="form-label">Zip</label>
-              <input type="text" className="form-control" name="zip" value={user.address.zip} onChange={(e) => { handleAddressChange(e) }} />
+              <input type="text" className="form-control" name="zip" value={user.address.zip} onChange={(e) => { handleAddressChange(e) }}  />
             </div>
 
           </div>
