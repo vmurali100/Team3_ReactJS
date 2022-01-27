@@ -10,6 +10,7 @@ import { Home } from "./Components/Home";
 import { Login } from "./Components/Login";
 import { Register } from "./Components/Register";
 import { User } from "./Components/User";
+import { UserId } from "./Components/UserId";
 function App() {
   
   return (
@@ -23,13 +24,14 @@ function App() {
         <Link to="/">Home</Link> |
         <Link to="/register">Register</Link>|
         <Link to="/login">Login</Link>|
-        <Link to="/user">User</Link>|
+        <Link to="/users">User</Link>|
       </nav>
         <Routes>
           <Route path="home" element={<Home />}> </Route>
           <Route path="register" element={<Register />}></Route>
           <Route path="login" element={<Login />}></Route>
-          <Route path="user" element={<User />}></Route>
+          <Route path="users" element={<User />}></Route>
+          <Route path="users/:userid" element={<UserId/>}></Route>
         </Routes>
       </BrowserRouter>
       
