@@ -36,11 +36,11 @@ export const AllUsers = () => {
                 <td>{usr.userName}</td>
                 <td>{usr.email}</td>
                 <td>{usr.password}</td>
-                <td>{usr.houseNo}</td>
-                <td>{usr.street}</td>
-                <td>{usr.city}</td>
-                <td>{usr.state}</td>
-                <td>{usr.zip}</td>
+                <td>{usr.address.houseNo}</td>
+                <td>{usr.address.street}</td>
+                <td>{usr.address.city}</td>
+                <td>{usr.address.state}</td>
+                <td>{usr.address.zip}</td>
              </tr>
             )
         })}
