@@ -12,6 +12,7 @@ export const HOC1 = (Newcomp) => {
         handleCount(){
         this.setState({count:this.state.count+1})
         }
+        
         render() {
             return <Newcomp count={this.state.count} handleCount={this.handleCount} />
         }

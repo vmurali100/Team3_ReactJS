@@ -1,0 +1,26 @@
+{
+  "register": [
+    {
+      "id": "1",
+      "userName": "chandu",
+      "email": "hari@gmail.com",
+      "password": "xnsbxn snx",
+      "houseNo": "123445",
+      "city": "Karnool",
+      "street": "6 12 H KOTTALA VILLAGE",
+      "state": "Andhra Pradesh",
+      "zip": "518598"
+    },
+    {
+      "id": "2",
+      "userName": "syam",
+      "email": "syam@gmail.com",
+      "password": "fgjhuy",
+      "houseNo": "565",
+      "city": "knl",
+      "street": "cn clolpony",
+      "state": "ap",
+      "zip": "678656"
+    }
+     ]
+}

@@ -1,0 +1,39 @@
+{
+  "users": [
+    {
+      "fname": "charan",
+      "email": "SK@gmail.com",
+      "password": "9087890987",
+      "address": "tirupati",
+      "id": 2
+    },
+    {
+      "fname": "charan",
+      "email": "hari@gmail.com",
+      "password": "m38rdd",
+      "address": "tirupati",
+      "id": 3
+    },
+    {
+      "fname": "charan",
+      "email": "hari@gmail.com",
+      "password": "m38rdd",
+      "address": "tirupati",
+      "id": 4
+    },
+    {
+      "fname": "charan",
+      "email": "hari@gmail.com",
+      "password": "m38rdd",
+      "address": "tirupati",
+      "id": 5
+    },
+    {
+      "fname": "chandu",
+      "email": "hari@gmail.com",
+      "password": "SKNCJKSCKJ",
+      "address": "tirupati",
+      "id": 7
+    }
+  ]
+}

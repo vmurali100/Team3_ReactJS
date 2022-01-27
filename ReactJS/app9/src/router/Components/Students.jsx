@@ -10,7 +10,7 @@ export const Students = () => {
         axios.get("http://localhost:3000/studentsdetails").then((res)=>{
             console.log(res.data);
             localStorage.setItem("students",JSON.stringify(res.data))
-            setStudents(res.data)
+            setStudents(res.data)                                 
         })
     },[])
       return <div>
