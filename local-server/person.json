@@ -1,0 +1,32 @@
+{
+  "person": [
+    {
+      "fname": "lokesh",
+      "email": "lokeshvasu63@gmail.com",
+      "password": "lokesh",
+      "address": "paradarami ",
+      "id": 1
+    },
+    {
+      "fname": "chandu",
+      "email": "chandu@gmail.com",
+      "password": "qwerty",
+      "address": "chittoor",
+      "id": 3
+    },
+    {
+      "fname": "Abi",
+      "email": "abi@gmail.com",
+      "password": "abi",
+      "address": "chennai",
+      "id": 4
+    },
+    {
+      "fname": "dilip kumar",
+      "email": "dilip@gmail.com",
+      "password": "dilip",
+      "address": "paradarami",
+      "id": 5
+    }
+  ]
+}

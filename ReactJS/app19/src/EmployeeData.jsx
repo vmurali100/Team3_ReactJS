@@ -27,7 +27,7 @@ export default class EmployeeData extends Component {
     addUser = () => {
         let newusers = [...this.state.users]
         newusers.push(this.state.user)
-        axios.post("http://localhost:3000/users",this.state.user).then(()=>{
+        axios.post("http://localhost:3000/employee",this.state.user).then(()=>{
             
         })
         this.setState({ users: newusers })
@@ -91,7 +91,7 @@ export default class EmployeeData extends Component {
                     this.handleChange(e)
                 }} /><br /><br />
 
-                <button onClick={this.addUser} type="button">add user</button>
+                <button onClick={this.addUser} type="button" className="btn btn-primary">add user</button>
 
             </form>
             <table class="table table-dark table-striped">

@@ -1,0 +1,54 @@
+{
+  "employee": [
+    {
+      "fname": "lokesh",
+      "email": "lokeshvasu63@gmail.com",
+      "contact": "9505393907",
+      "address": "patrapalli",
+      "qualification": "degree",
+      "passedout": "2017",
+      "description": "completed",
+      "id": 1
+    },
+    {
+      "fname": "hareesh",
+      "email": "hareesh@gmail.com",
+      "contact": "8309966782",
+      "address": "paradarami",
+      "qualification": "b.e",
+      "passedout": "2019",
+      "description": "completed",
+      "id": 2
+    },
+    {
+      "fname": "chandu",
+      "email": "chandu@gmail.com",
+      "contact": "7708738852",
+      "address": "hurnool",
+      "qualification": "mca",
+      "passedout": "2016",
+      "description": "completed",
+      "id": 3
+    },
+    {
+      "fname": "abi",
+      "email": "abi@gmail.com",
+      "contact": "7708738852",
+      "address": "chennai",
+      "qualification": "btech",
+      "passedout": "2019",
+      "description": "completed",
+      "id": 4
+    },
+    {
+      "fname": "mahesh",
+      "email": "mahesh@gmail.com",
+      "contact": "83009966782",
+      "address": "paradarami",
+      "qualification": "degree",
+      "passedout": "2017",
+      "description": "completed",
+      "id": 5
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "lokesh",
+      "email": "lokesh@gmail.com",
+      "password": "lokesh",
+      "address": {
+        "houseno": "123",
+        "street": "patrapalli",
+        "city": "patrapalli",
+        "state": "patrapalli",
+        "zip": "517422"
+      }
+    },
+    {
+      "id": "2",
+      "username": "lokesh",
+      "email": "lokesh@gmail.com",
+      "password": "lokesh",
+      "address": {
+        "houseno": "123",
+        "street": "patrapalli",
+        "city": "patrapalli",
+        "state": "patrapalli",
+        "zip": "517422"
+      }
+    },
+    {
+      "id": "3",
+      "username": "lokesh",
+      "email": "lokesh@gmail.com",
+      "password": "lokesh",
+      "address": {
+        "houseno": "123",
+        "street": "patrapalli",
+        "city": "patrapalli",
+        "state": "patrapalli",
+        "zip": "517422"
+      }
+    },
+    {
+      "id": "4",
+      "username": "lokesh",
+      "email": "lokesh@gmail.com",
+      "password": "lokesh",
+      "address": {
+        "houseno": "123",
+        "street": "patrapalli",
+        "city": "patrapalli",
+        "state": "patrapalli",
+        "zip": "517422"
+      }
+    }
+  ]
+}
