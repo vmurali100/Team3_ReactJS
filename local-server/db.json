@@ -1,43 +1,14 @@
 {
   "users": [
     {
-      "id": 3,
-      "username": "",
-      "email": "john@gmail.com",
-      "password": "",
-      "address": {
-        "houseno": "33",
-        "street": "Nallur, Pollachi",
-        "city": "Coimbatore",
-        "state": "TAMIL NADU",
-        "zip": "642005"
-      }
-    },
-    {
-      "id": 4,
-      "username": "",
-      "email": "john@gmail.com",
-      "password": "",
-      "address": {
-        "houseno": "1",
-        "street": "Nallur, Pollachi",
-        "city": "Coimbatore",
-        "state": "TAMIL NADU",
-        "zip": "642005"
-      }
-    },
-    {
       "id": 5,
-      "username": "snyder",
-      "email": "",
-      "password": "",
-      "address": {
-        "houseno": "",
-        "street": "",
-        "city": "",
-        "state": "",
-        "zip": ""
-      }
+      "username": "abirami",
+      "email": "abcd123e@gmail.com",
+      "password": "oooo",
+      "address": "cbe",
+      "street": "murugan street",
+      "state": "TAMIL NADU",
+      "zip": "353"
     },
     {
       "id": 6,
@@ -53,95 +24,103 @@
       }
     },
     {
-      "id": 7,
-      "username": "",
-      "email": "",
-      "password": "",
-      "address": {
-        "houseno": "",
-        "street": "Zamin Uthukuli",
-        "city": "Coimbatore",
-        "state": "",
-        "zip": "642005"
-      }
-    },
-    {
       "id": 8,
-      "username": "",
-      "email": "john@gmail.com",
-      "password": "gjfj",
-      "address": {
-        "houseno": "4",
-        "street": "Nallur, Pollachi",
-        "city": "Coimbatore",
-        "state": "TAMIL NADU",
-        "zip": "642005"
-      }
-    },
-    {
-      "id": 9,
-      "username": "",
-      "email": "john@gmail.com",
-      "password": "",
-      "address": {
-        "houseno": "",
-        "street": "Nallur, Pollachi",
-        "city": "Coimbatore",
-        "state": "TAMIL NADU",
-        "zip": "642005"
-      }
+      "username": "david_rdxcvdjbj",
+      "email": "john@gmail.comjdcj",
+      "password": "gix xx",
+      "address": "44",
+      "houseno": "42",
+      "street": ""
     },
     {
       "id": 10,
-      "username": "",
+      "username": "abi",
       "email": "john@gmail.com",
-      "password": "",
+      "password": "mmm",
       "address": {
         "houseno": "",
         "street": "Nallur, Pollachi",
         "city": "Coimbatore",
         "state": "TAMIL NADU",
         "zip": "642005"
+      },
+      "houseno": "n"
+    },
+    {
+      "id": "1",
+      "username": "johndnd,dg",
+      "email": "abirami121297@gmail.com",
+      "password": "skkg",
+      "address": {
+        "houseno": "78",
+        "street": "djakf",
+        "city": "mrfm",
+        "state": "ngnn",
+        "zip": "353"
       }
     },
     {
-      "id": "11",
-      "username": "david_rdxcvd",
-      "email": "john@gmail.com",
-      "password": "rgg",
+      "id": "4",
+      "username": "mkm",
+      "email": "abirami121297@gmail.com",
+      "password": "bjnjnj",
       "address": {
-        "houseno": "55",
-        "street": "Nallur, Pollachi",
-        "city": "Coimbatore",
-        "state": "TAMIL NADU",
-        "zip": "642005"
+        "houseno": "88",
+        "street": "djakf",
+        "city": "mrfm",
+        "state": "ngnn",
+        "zip": "353"
       }
     },
     {
-      "id": "rTMNl-_",
-      "username": "abirami",
-      "email": "nb,v",
-      "password": "nvmcn",
+      "id": "12",
+      "username": "johndnvnc",
+      "email": "abirami121297m@gmail.com",
+      "password": "qwerty",
       "address": {
-        "houseno": "66",
-        "street": "Zamin Uthukuli",
-        "city": "Coimbatore",
-        "state": "TAMIL NADU",
-        "zip": "642005"
+        "houseno": "23",
+        "street": "qwerty",
+        "city": "cbe",
+        "state": "tn",
+        "zip": "92959"
       }
     },
     {
-      "id": "vKQdL9_",
-      "username": "",
-      "email": "john@gmail.com",
-      "password": "",
+      "id": "7",
+      "username": "snyder",
+      "email": "abirami121297m@gmail.com",
+      "password": "mmmmm",
       "address": {
-        "houseno": "",
-        "street": "Nallur, Pollachi",
-        "city": "Coimbatore",
-        "state": "TAMIL NADU",
-        "zip": "642005"
+        "houseno": "9",
+        "street": "qwerty",
+        "city": "cbe",
+        "state": "tn",
+        "zip": "92959"
       }
+    },
+    {
+      "id": "3zoeDzf",
+      "username": "snyder",
+      "email": "qwert@gmail.com",
+      "password": "qwert",
+      "address": "pouy",
+      "houseno": "0",
+      "street": "12",
+      "state": "TAMIL NADU",
+      "zip": "353"
+    },
+    {
+      "username": "snyder",
+      "email": "abirami121297@gmail.com",
+      "password": "vd,mm",
+      "address": {
+        "houseno": "34",
+        "street": "djakf",
+        "city": "mrfm",
+        "state": "ngnn",
+        "zip": "353"
+      },
+      "id": "98G9Tpy"
     }
   ]
 }

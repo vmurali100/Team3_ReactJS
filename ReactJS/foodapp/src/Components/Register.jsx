@@ -29,6 +29,7 @@ export const Register = () => {
 
     })
     setUsers(newUser)
+    // window.location.href="login"
   }
   const getValues = () => {
     console.log(user);

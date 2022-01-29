@@ -7,6 +7,7 @@ import {
 export const Home = () => {
     return <div>
         <h2>Home Compomnent</h2>
+        
         {/* <nav>
             <nav className="navbar navbar-expand-lg navbar-light bg-light">
                 <div className="container-fluid">

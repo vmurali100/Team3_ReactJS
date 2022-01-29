@@ -1,0 +1,82 @@
+{
+  "admin": [
+    {
+      "fName": "Abhirami",
+      "lName": "M",
+      "username": "johndnvnc",
+      "email": "birami121297@gmail.com",
+      "password": "12345",
+      "id": 1
+    }
+  ],
+  "addDisrtricts": [
+    {}
+  ],
+  "users": [
+    {
+      "fName": "Abirami",
+      "lName": "M",
+      "username": "AbiM",
+      "email": "abirami121297@gmail.com",
+      "password": "qwerty123",
+      "id": 1
+    },
+    {
+      "fName": "ANJALI",
+      "lName": "M",
+      "username": "abirami",
+      "email": "abirami121297m@gmail.com",
+      "password": "0987654",
+      "id": 2
+    },
+    {
+      "fName": "Abhirami",
+      "lName": "M",
+      "username": "ABHI",
+      "email": "abc@gmail.com",
+      "password": "poiuy",
+      "id": 3
+    },
+    {
+      "fName": "Abhirami",
+      "lName": "M",
+      "username": "Abhi",
+      "email": "abirami12121997@gmail.com",
+      "password": "0987",
+      "id": 4
+    },
+    {
+      "fName": "Abhirami",
+      "lName": "M",
+      "username": "Abi",
+      "email": "birami121297@gmail.com",
+      "password": "qwerty",
+      "id": 5
+    }
+  ],
+  "districts": [
+    {
+      "districtName": "Coimbatore",
+      "constituency": [
+        "Pollachi",
+        "RS Puram",
+        "GandhiPuram"
+      ]
+    },
+    {
+      "districtName": "Chennai",
+      "constituency": [
+        "Anna Nagar",
+        "Chrompet",
+        "Egmore"
+      ]
+    },
+    {
+      "districtName": "Tirupur",
+      "constituency": [
+        "Avinashi",
+        "Udumalai"
+      ]
+    }
+  ]
+}
