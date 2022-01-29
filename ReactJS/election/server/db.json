@@ -9,9 +9,6 @@
       "id": 1
     }
   ],
-  "addDisrtricts": [
-    {}
-  ],
   "users": [
     {
       "fName": "Abirami",
@@ -56,27 +53,39 @@
   ],
   "districts": [
     {
+      "id": 4,
       "districtName": "Coimbatore",
-      "constituency": [
-        "Pollachi",
-        "RS Puram",
-        "GandhiPuram"
-      ]
+      "constituency": "Pollachi"
     },
     {
-      "districtName": "Chennai",
-      "constituency": [
-        "Anna Nagar",
-        "Chrompet",
-        "Egmore"
-      ]
+      "id": 5,
+      "districtName": "Ooty",
+      "constituency": "Kothagiri"
     },
     {
+      "id": 6,
+      "districtName": "Ooty",
+      "constituency": "Rs Puram"
+    },
+    {
+      "id": 7,
+      "districtName": "Ooty",
+      "constituency": "Rs Puram"
+    },
+    {
+      "id": "8",
+      "districtName": "Ooty",
+      "constituency": "kunnor"
+    },
+    {
+      "id": "9",
       "districtName": "Tirupur",
-      "constituency": [
-        "Avinashi",
-        "Udumalai"
-      ]
+      "constituency": "Avinashi"
+    },
+    {
+      "id": "12",
+      "districtName": "Coimbatore",
+      "constituency": "Kinathukaadavu"
     }
   ]
 }
