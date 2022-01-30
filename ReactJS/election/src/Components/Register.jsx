@@ -27,11 +27,12 @@ export const Register = () => {
                 alert("Registered Successfully")
                 navigate("/login");
             })}else{
-                 axios.post(admin,registerUser).then((res)=>{
-                    console.log(res.data);
-                    alert("Admin Registered Successfully")
-                navigate("/admin");
-            })}
+            //      axios.post(admin,registerUser).then((res)=>{
+            //         console.log(res.data);
+            //         alert("Admin Registered Successfully")
+            //     navigate("/admin");
+            // })
+        }
     }
     return <div>
         <form>

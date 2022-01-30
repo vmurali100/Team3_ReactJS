@@ -7,6 +7,22 @@
       "email": "birami121297@gmail.com",
       "password": "12345",
       "id": 1
+    },
+    {
+      "fName": "abireami",
+      "lName": "M",
+      "username": "snyder",
+      "email": "abirami121297@gmail.com",
+      "password": "asd",
+      "id": 2
+    },
+    {
+      "fName": "Abirami",
+      "lName": "M",
+      "username": "AbiM",
+      "email": "abirami121297@gmail.com",
+      "password": "qwerty123",
+      "id": 3
     }
   ],
   "users": [
@@ -53,11 +69,6 @@
   ],
   "districts": [
     {
-      "id": 4,
-      "districtName": "Coimbatore",
-      "constituency": "Pollachi"
-    },
-    {
       "id": 5,
       "districtName": "Ooty",
       "constituency": "Kothagiri"
@@ -86,6 +97,11 @@
       "id": "12",
       "districtName": "Coimbatore",
       "constituency": "Kinathukaadavu"
+    },
+    {
+      "id": "4",
+      "districtName": "Coimbatore",
+      "constituency": "kunnor,Kothagiri"
     }
   ]
 }

@@ -22,8 +22,8 @@ export const Admin = () => {
         let users=await getUsers()
         // console.log(users);
         if(users.length == 0 ){
-            alert("You have note registered...Please Register To login")
-            navigate("/register");
+            alert("No admin ...")
+            // navigate("/register");
         }else{
             let loggedAdminInUser=users.find((us)=> us.email == loginDetails.email && us.password == loginDetails.password)
             if (loggedAdminInUser){
@@ -32,7 +32,8 @@ export const Admin = () => {
                 navigate("/districts")
                 
             }else{
-                alert("You have note registered...Please Register To login")
+                alert("You are not admin...Please Click Login")
+                navigate("/login")
                 
             }
         }

@@ -20,7 +20,7 @@ export const Login = () => {
        
 
         let users=await getUsers()
-        // console.log(users);
+        console.log(users);
         if(users.length == 0 ){
             alert("You have note registered...Please Register To login")
             navigate("/register");
@@ -33,10 +33,10 @@ export const Login = () => {
                 navigate("/");
             }else if(loggedAdminInUser) {
                 localStorage.setItem(("loggedAdminInUser"),JSON.stringify(loggedAdminInUser))
-                navigate("");
+                navigate("/");
             }else{
-                alert("You have note registered...Please Register To login")
-                navigate("/login");
+                alert("You have not registered...Please Register To login")
+                navigate("/register");
             }
         }
     }
