@@ -1,0 +1,213 @@
+{
+  "admin": [
+    {
+      "fname": "chandu",
+      "lname": "babu",
+      "username": "chandu123",
+      "email": "cb@gmail.com",
+      "password": "12345"
+    }
+  ],
+  "user": [
+    {
+      "fname": "chandu",
+      "lname": "babu",
+      "username": "babu1123",
+      "email": "babu@gmail.com",
+      "password": "123",
+      "id": 1
+    },
+    {
+      "fname": "chandu",
+      "lname": "babu",
+      "username": "chandu123",
+      "email": "babu@gmail.com",
+      "password": "123",
+      "id": 2
+    },
+    {
+      "fname": "chandu",
+      "lname": "babu",
+      "username": "chandu123",
+      "email": "cs@gmail.com",
+      "password": "123",
+      "id": 3
+    },
+    {
+      "fname": "chandu",
+      "lname": "babu",
+      "username": "chandu123",
+      "email": "cs@gmail.com",
+      "password": "123",
+      "id": 4
+    },
+    {
+      "fname": "chandu",
+      "lname": "babu",
+      "username": "chandu123",
+      "email": "cs@gmail.com",
+      "password": "123",
+      "id": 5
+    },
+    {
+      "fname": "chandu",
+      "lname": "babu",
+      "username": "syam@gmail.com",
+      "email": "cs@gmail.com",
+      "password": "12345",
+      "id": 6
+    },
+    {
+      "fname": "chandu",
+      "lname": "babu",
+      "username": "syam@gmail.com",
+      "email": "cs@gmail.com",
+      "password": "12345",
+      "id": 7
+    },
+    {
+      "fname": "chandu",
+      "lname": "babu",
+      "username": "",
+      "email": "babu@gmail.com",
+      "password": "123",
+      "id": 8
+    },
+    {
+      "fname": "chandu",
+      "lname": "babu",
+      "username": "",
+      "email": "babu@gmail.com",
+      "password": "123",
+      "id": 9
+    },
+    {
+      "fname": "chandu",
+      "lname": "babu",
+      "username": "",
+      "email": "babu@gmail.com",
+      "password": "123",
+      "id": 10
+    },
+    {
+      "fname": "chandu",
+      "lname": "babu",
+      "username": "",
+      "email": "babu@gmail.com",
+      "password": "123",
+      "id": 11
+    },
+    {
+      "fname": "chandu",
+      "lname": "babu",
+      "username": "",
+      "email": "babu@gmail.com",
+      "password": "123",
+      "id": 12
+    },
+    {
+      "fname": "chandu",
+      "lname": "babu",
+      "username": "",
+      "email": "babu@gmail.com",
+      "password": "123",
+      "id": 13
+    },
+    {
+      "fname": "chandu",
+      "lname": "babu",
+      "username": "",
+      "email": "babu@gmail.com",
+      "password": "123",
+      "id": 14
+    },
+    {
+      "fname": "chandu",
+      "lname": "babu",
+      "username": "",
+      "email": "babu@gmail.com",
+      "password": "123",
+      "id": 15
+    },
+    {
+      "fname": "chandu",
+      "lname": "babu",
+      "username": "",
+      "email": "babu@gmail.com",
+      "password": "123",
+      "id": 16
+    },
+    {
+      "fname": "chandu",
+      "lname": "babu",
+      "username": "",
+      "email": "babu@gmail.com",
+      "password": "123",
+      "id": 17
+    },
+    {
+      "fname": "chandu",
+      "lname": "babu",
+      "username": "",
+      "email": "babu@gmail.com",
+      "password": "123",
+      "id": 18
+    },
+    {
+      "fname": "chandu",
+      "lname": "babu",
+      "username": "",
+      "email": "babu@gmail.com",
+      "password": "123",
+      "id": 19
+    },
+    {
+      "fname": "chandu",
+      "lname": "babu",
+      "username": "",
+      "email": "babu@gmail.com",
+      "password": "123",
+      "id": 20
+    },
+    {
+      "fname": "chandu",
+      "lname": "babu",
+      "username": "chandu123",
+      "email": "babu@123",
+      "password": "123",
+      "id": 21
+    }
+  ],
+  "districtDetails": [
+    {
+      "district": "Nandyal",
+      "constituency": [
+        "Allagadda",
+        "Srisailam",
+        "Nandikotkur",
+        "Panyam",
+        "Banaganapalle",
+        "Dhone"
+      ]
+    },
+    {
+      "district": "Kurnool",
+      "constituency": [
+        "Adoni",
+        "Alur",
+        "Mantralayam",
+        "Yemmiganur",
+        "Kodumur",
+        "Pattikonda"
+      ]
+    },
+    {
+      "district": "Tirupati",
+      "constituency": [
+        "Srikalahasti",
+        "Sathyavedu",
+        "Tirupati"
+      ]
+    }
+  ]
+}
