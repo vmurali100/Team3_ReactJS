@@ -24,10 +24,11 @@ export const DistrictDetails = () => {
         let dis = res.data.find((d) => d.constituency.indexOf(userInput) > -1)
         setsearchDist(dis)
       })
-    } else {
+    } else{
       alert("Please you can login first...")
       navigate("/login")
-    }
+      }
+    
   }
   return <div>
     <div className="container">
