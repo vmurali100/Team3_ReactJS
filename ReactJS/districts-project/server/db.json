@@ -180,34 +180,19 @@
   ],
   "districtDetails": [
     {
+      "id": "1",
       "district": "Nandyal",
-      "constituency": [
-        "Allagadda",
-        "Srisailam",
-        "Nandikotkur",
-        "Panyam",
-        "Banaganapalle",
-        "Dhone"
-      ]
+      "constituency": "Dhone"
     },
     {
-      "district": "Kurnool",
-      "constituency": [
-        "Adoni",
-        "Alur",
-        "Mantralayam",
-        "Yemmiganur",
-        "Kodumur",
-        "Pattikonda"
-      ]
+      "id": "2",
+      "district": "Nandyal",
+      "constituency": "Banaganapalle"
     },
     {
-      "district": "Tirupati",
-      "constituency": [
-        "Srikalahasti",
-        "Sathyavedu",
-        "Tirupati"
-      ]
+      "id": "3",
+      "district": "Nandyal",
+      "constituency": "panyam1"
     }
   ]
 }

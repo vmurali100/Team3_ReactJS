@@ -11,8 +11,9 @@ export const Nav = () => {
   let navigate = useNavigate();
 
   const [loginUser, setloginUser] = useState(null);
+  const [loggedinAdmin, setloggedinAdmin] = useState(null)
   useEffect(() => {
-    let users = JSON.parse(localStorage.getItem("user"))
+    let users = JSON.parse(localStorage.getItem("loginUser"))
 
     setloginUser(users)
   }, [])
@@ -36,16 +37,25 @@ export const Nav = () => {
 
               <button type="button" className="btn btn-outline-light me-2"><Link to="/login">Login</Link></button>
               <button type="button" className="btn btn-warning"><Link to="/regester">Sign-up</Link></button>
-              <button type="button" className="btn btn-info"><Link to="/admin">Admin-login</Link></button>
+               <button type="button" className="btn btn-info"><Link to="/admin">Admin-login</Link></button> 
             </div>
             </>
             : <><li className="nav-link link-dark px-2 btn btn-outline-light me-2 bg-white text-black ">{loginUser.username}</li>
               <li className="nav-item" onClick={logoutUser} className="nav-link link-dark px-2 btn btn-outline-light me-2 bg-white text-black "> Logout</li>
-              {/* <li className="nav-item" className="nav-link link-dark px-2 btn btn-outline-light me-2 bg-white text-black"><Link to="/admin">Admin-login</Link></li> */}
+              {/* <li className="nav-link link-dark px-2 btn btn-outline-light me-2 bg-white text-black ">{loggedinAdmin.username}</li>
+              <li className="nav-item" onClick={logoutUser} className="nav-link link-dark px-2 btn btn-outline-light me-2 bg-white text-black "> Logout</li> */}
 
             </>
           }
         </div>
+        {/* <div>
+          {loggedinAdmin==null ?  
+          <><div className="text-end">
+           <button type="button" className="btn btn-info"><Link to="/admin">Admin-login</Link></button> 
+         </div> </> :<><li className="nav-link link-dark px-2 btn btn-outline-light me-2 bg-white text-black ">{loggedinAdmin.username}</li>
+          <li className="nav-item" onClick={logoutUser} className="nav-link link-dark px-2 btn btn-outline-light me-2 bg-white text-black "> Logout</li>
+            </>}
+        </div> */}
       </div>
     </header>
   </div>;

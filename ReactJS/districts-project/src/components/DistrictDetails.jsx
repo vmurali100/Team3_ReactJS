@@ -10,7 +10,7 @@ export const DistrictDetails = () => {
   const [searchDist, setsearchDist] = useState({})
   const [loggedIn, setloggedIn] = useState(false)
   useEffect(() => {
-    let users = JSON.parse(localStorage.getItem("user"))
+    let users = JSON.parse(localStorage.getItem("loginUser"))
     if (users) {
       setloggedIn(true)
       navigate("/")
@@ -31,19 +31,25 @@ export const DistrictDetails = () => {
   }
   return <div>
     <div className="container">
-      <form>
-        <div className="mb-3">
-          <label className="form-label">Constitute Details</label>
-          <input type="text" className="form-control" value={userInput}
-            onChange={(e) => { setuserInput(e.target.value) }} />
-        </div>
+      <div className="row">
+        <div className="col">
+          <form>
+            <div className="mb-3">
+              <label className="form-label">Constitute Details</label>
+              <input type="text" className="form-control" value={userInput}
+                onChange={(e) => { setuserInput(e.target.value) }} />
+            </div>
 
-        <button type="button" className="btn btn-primary" onClick={getDetails}>Find District</button>
-      </form>
+            <button type="button" className="btn btn-primary" onClick={getDetails}>Find District</button>
+          </form>
+
+        </div>
+        {searchDist.district && (
+          <h2>Your District Name is:{searchDist.district}</h2>
+        )}
+      </div>
     </div>
-    {searchDist.district && (
-      <h2>Your District Name is:{searchDist.district}</h2>
-    )}
-  </div>;
+  </div>
+
 };
 export default DistrictDetails

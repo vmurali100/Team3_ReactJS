@@ -24,7 +24,9 @@ export const Login = () => {
             if (loginUser) {
                 localStorage.setItem(("loginUser"), JSON.stringify(loginUser))
                 navigate("/")
-            } else {
+            } else
+        
+            {
                 alert("Your not regesterd...")
                 navigate("/regester")
 

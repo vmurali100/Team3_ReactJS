@@ -11,6 +11,7 @@ import Reg from './components/Reg';
 import Login from './components/Login';
 import { Nav } from './components/Nav';
 import { Admin } from './components/Admin';
+import UpdatedDistricts from './components/UpdatedDistricts';
 ;
 
 
@@ -25,6 +26,7 @@ function App() {
           <Route path="regester" element={<Reg />} />
           <Route path="login" element={<Login />} />
           <Route path="admin" element={<Admin />} />
+          <Route path="newdist" element={<UpdatedDistricts/>}/>
 
         </Routes>
     
