@@ -1,0 +1,90 @@
+{
+  "admin1": [
+    {
+      "email": "lokeshvasu@gmail.com",
+      "password": "lokesh"
+    }
+  ],
+  "users": [
+    {
+      "fname": "lokesh",
+      "lname": "lokesh",
+      "username": "lokeshvasu",
+      "email": "lokeshvasu63@gmail.com",
+      "password": "qwerty",
+      "id": 1
+    },
+    {
+      "fname": "lokesh",
+      "lname": "lokeshvasu",
+      "username": "lokeshvasu",
+      "email": "lokeshvasu63@gmail.com",
+      "password": "qwerty",
+      "id": 2
+    },
+    {
+      "fname": "lokesh",
+      "lname": "lokesh",
+      "username": "lokesh",
+      "email": "lokeshvasu63@gmail.com",
+      "password": "qwerty",
+      "id": 3
+    },
+    {
+      "fname": "sankar",
+      "lname": "t",
+      "username": "t sankar",
+      "email": "sankar@gmail.com",
+      "password": "qwerty",
+      "id": 4
+    },
+    {
+      "fname": "somu",
+      "lname": "s",
+      "username": "somasekhar",
+      "email": "somasekhar@gmail.com",
+      "password": "qwerty",
+      "id": 5
+    }
+  ],
+  "discricts": [
+    {
+      "id": 2,
+      "districtName": "kavali",
+      "constituencies": [
+        "sarvepalli",
+        "gudur",
+        "kavali",
+        "patrapalli"
+      ],
+      "isaddconst": true
+    },
+    {
+      "id": 3,
+      "districtName": "kadapa",
+      "constituencies": [
+        "rayachoti",
+        "pulivendla",
+        "kodur"
+      ]
+    },
+    {
+      "id": 4,
+      "districtName": "Ananthapuram",
+      "constituencies": [
+        "tadipatri",
+        "uravakonda",
+        "guntakal",
+        "hindupur"
+      ]
+    },
+    {
+      "districtName": "chittoor",
+      "constituencies": [
+        "puthalapattu"
+      ],
+      "id": 5,
+      "isaddconst": true
+    }
+  ]
+}
