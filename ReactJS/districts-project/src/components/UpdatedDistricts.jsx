@@ -4,7 +4,7 @@ import { useEffect } from 'react';
 
 export const UpdatedDistricts = () => {
   const [DistData, setNewDistData] = useState([])
-  const [Data,setData]=useState(false)
+  const [isUpdate,setIsUpdate]=useState(false)
   const [DistInfo, setDistInfo] = useState({
     id: "",
     district: "",

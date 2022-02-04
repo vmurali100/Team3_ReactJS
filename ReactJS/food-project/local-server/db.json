@@ -38,6 +38,19 @@
         "state": "ap",
         "zip": "6554"
       }
+    },
+    {
+      "id": "10",
+      "userName": "venu",
+      "email": "venu@gmail.com",
+      "password": "12345",
+      "address": {
+        "houseNo": "123",
+        "city": "knl",
+        "street": "a colony",
+        "state": "ap",
+        "zip": "12345"
+      }
     }
   ]
 }

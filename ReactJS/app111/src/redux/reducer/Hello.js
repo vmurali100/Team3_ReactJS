@@ -10,6 +10,7 @@ const defaultState={
     }
 let allStudents=["Chandu","Lokesh","Harish","Abi"]
 let allSubjects=["Maths","Science","English"]
+
 const rootReducer=(state=defaultState,action)=>{
     // console.log(state)
 

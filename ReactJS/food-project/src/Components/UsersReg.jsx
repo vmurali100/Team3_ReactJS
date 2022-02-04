@@ -1,9 +1,11 @@
 import axios from 'axios';
 import React from 'react';
+import { useNavigate } from "react-router-dom";
 import { useEffect } from 'react';
 import { useState } from 'react';
 
 export const UsersReg = () => {
+    let navigate = useNavigate();
     const [users, setusers] = useState([])
     const [user, setUser] = useState({
         id: "",
@@ -42,7 +44,7 @@ export const UsersReg = () => {
         setusers(userData)
         alert("your details submittedd")
         clearForm()
-        window.location = "http://localhost:3001/users"
+        navigate("/login")
     }
     const clearForm = () => {
         setusers({
@@ -65,7 +67,8 @@ export const UsersReg = () => {
     //     },[])
     // })
     return <div>
-        <h2>Register Here </h2>
+       <div className="container">
+       <h2>Register Here </h2>
         <form>
             <div className="mb-3">
                 <label for="id" className="form-label">Id</label>
@@ -115,6 +118,7 @@ export const UsersReg = () => {
             <button type="button" className="btn btn-primary" onClick={addUser}>Submit</button>
         </form>
 
+       </div>
         {/* <table border="1px">
     <thead>
         <tr>

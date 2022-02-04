@@ -1,27 +1,54 @@
+import axios from 'axios';
 import React from 'react';
+import { useNavigate } from "react-router-dom";
+
 import { useState } from 'react';
 import { Link } from "react-router-dom"
 export const User_login = () => {
+  let navigate = useNavigate();
   const [loginDetails, setloginDetails] = useState({ email: "", password: "" })
   const handleValues = (e) => {
     let newUser = { ...loginDetails }
     newUser[e.target.name] = e.target.value
     setloginDetails(newUser)
   }
-  const getUserCredential = () => {
-    var storedDetails = JSON.parse(localStorage.getItem("users"))
-    console.log(storedDetails);
-    if (storedDetails.email == loginDetails.email && storedDetails.password == loginDetails.password) {
-      window.location.href = "users"
-    } else {
-      alert("invalid email & password")
+  const getUserCredential = async() => {
+    let allUsers=await getAllUsers()
+    if(allUsers.length==0){
+      alert("You have no account.. you can register first")
+      navigate("/usersReg")
+    }else{
+      let loginUser=allUsers.find(usr=>usr.email==loginDetails.email && usr.password==loginDetails.password)
+      if(loginUser){
+        localStorage.setItem(("loginUser"),JSON.stringify(loginUser))
+        navigate("/items")
+      }else{
+        alert("You have no account.. you can register first")
+        navigate("/usersReg")
+      }
     }
-    clearForm()
-    const clearForm = () => {
-      setloginDetails(
-        { email: "", password: "" }
-      )
-    }
+    // var storedDetails = JSON.parse(localStorage.getItem("users"))
+    // console.log(storedDetails);
+    // if (storedDetails.email == loginDetails.email && storedDetails.password == loginDetails.password) {
+    //   window.location.href = "users"
+    // } else {
+    //   alert("invalid email & password")
+    // }
+    // clearForm()
+    // const clearForm = () => {
+    //   setloginDetails(
+    //     { email: "", password: "" }
+    //   )
+    // }
+  }
+  const getAllUsers=()=>{
+    return new Promise((resolve,reject)=>{
+      axios.get("http://localhost:3000/register").then((res)=>{
+        console.log(res.data);
+        resolve(res.data)
+        })
+    })
+   
   }
   return <div>
     <h2>Login Here</h2>

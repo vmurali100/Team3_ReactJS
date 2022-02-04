@@ -26,7 +26,7 @@ function App() {
           <Route path="regester" element={<Reg />} />
           <Route path="login" element={<Login />} />
           <Route path="admin" element={<Admin />} />
-          <Route path="newdist" element={<UpdatedDistricts/>}/>
+          {/* <Route path="newdist" element={<UpdatedDistricts/>}/> */}
 
         </Routes>
     
