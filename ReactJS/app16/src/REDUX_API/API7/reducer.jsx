@@ -8,7 +8,7 @@ function reducerProduct(state=defaultState,action){
         case GET_ALL_PRODUCTS:
            break; 
     
-        default:
+        default: 
             return state.products;
     }
 }

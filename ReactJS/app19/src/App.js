@@ -1,14 +1,16 @@
 import './App.css';
+import Sample1 from './Sample1';
 // import PersonData from './Routing/PersonData';
 // import EmployeeData from './EmployeeData';
-import Users from './Routing/Users';
+// import Users from './Routing/Users';
 
 function App() {
   return (
     <div className="App">
       {/* <EmployeeData/> */}
       {/* <PersonData /> */}
-      <Users/>
+      <Sample1/>
+      {/* <Users/> */}
     </div>
   );
 }

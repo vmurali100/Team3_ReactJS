@@ -47,30 +47,11 @@
       "id": 5
     }
   ],
-  "discricts": [
-    {
-      "id": 2,
-      "districtName": "kavali",
-      "constituencies": [
-        "sarvepalli",
-        "gudur",
-        "kavali",
-        "patrapalli"
-      ],
-      "isaddconst": true
-    },
-    {
-      "id": 3,
-      "districtName": "kadapa",
-      "constituencies": [
-        "rayachoti",
-        "pulivendla",
-        "kodur"
-      ]
-    },
+  "districts": [
     {
       "id": 4,
       "districtName": "Ananthapuram",
+      "isAddCont": false,
       "constituencies": [
         "tadipatri",
         "uravakonda",
@@ -79,12 +60,16 @@
       ]
     },
     {
+      "constituencies": [],
       "districtName": "chittoor",
-      "constituencies": [
-        "puthalapattu"
-      ],
-      "id": 5,
-      "isaddconst": true
+      "isAddCont": false,
+      "id": 7
+    },
+    {
+      "constituencies": [],
+      "districtName": "abcd",
+      "isAddCont": false,
+      "id": 8
     }
   ]
 }

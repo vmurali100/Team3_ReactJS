@@ -3,7 +3,7 @@ const Chandu1 = (props) =>{
     return(
         <div>
            <ul>
-                <li>id:{props.person.id}</li> 
+               <li>id:{props.person.id}</li> 
                 <li>fname:{props.person.fname}</li>
                 <li>email:{props.person.email}</li>
                 <li>proffession:{props.person.proffession}</li> 

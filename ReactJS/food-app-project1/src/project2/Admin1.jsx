@@ -11,7 +11,7 @@ export const Admin1 = () => {
   const [districts, setdistricts] = useState([]);
   const [isAdd, setisAdd] = useState(false);
   const [districtName, setdistrictName] = useState("");
-  const [isaddconst, setisaddconst] = useState(false);
+  // const [isaddconst, setisaddconst] = useState(false)
   const [constituencies, setconstituencies] = useState("")
 
   useEffect(() => {

@@ -11,7 +11,7 @@ import './App.css';
 //   const getUsersFromChild = ((users) => {
 //     setallUsers(users)
 //   })
-// ``
+
 //   const [allUser, setallUser] = useState([])
 //   const getUserChild = ((user) => {
 //     setallUser(user)
@@ -32,7 +32,7 @@ import './App.css';
 //   })
   return (
     <div className="App">
-      {/* <ul>
+       <ul>
         {allUsers.map((user, i) => {
           return <li key={i}>{user}</li>
         })}
@@ -82,7 +82,7 @@ import './App.css';
       <ChildComp3 sendfruits={getFruits}/>
       <hr/>
       
-      <ChildComp4 sendmobiles={getMobiles}/> */}
+      <ChildComp4 sendmobiles={getMobiles}/>
 
       {/* <Sample1/> */}
     </div>

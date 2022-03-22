@@ -8,7 +8,7 @@ export const Sample2 = () => {
     }
     return (
         <div>
-            <input placeholder="enter something....." onChange={Change}/>
+            <input placeholder="enter something....." onChange={(e)=>{Change(e)}}/>
             {inputValue}
         </div>
     )

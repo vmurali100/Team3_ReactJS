@@ -7,7 +7,7 @@ export const Sample1 = () => {
         setcount(count+1)
      }
     return (
-        <div>
+        <div> 
             {count}
             <button onClick={Increment}>click it</button>
         </div>

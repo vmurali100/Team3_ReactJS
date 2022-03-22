@@ -20,13 +20,13 @@ import reducerProduct from './REDUX_API/API7/reducer';
 // const store = createStore(todosReducer, applyMiddleware(thunk))
 // console.log(store)
 
-  // const store=createStore(ReducerPhotos,applyMiddleware(thunk))
-  // const store=createStore(ReducerAlbums,applyMiddleware(thunk))
-  // const store=createStore(ReducerComments,applyMiddleware(thunk))
-  // const store=createStore(ReducerPosts,applyMiddleware(thunk))
-  // console.log(store)
-  const store=createStore(reducerProduct,applyMiddleware(thunk))
-  console.log(store)
+// const store=createStore(ReducerPhotos,applyMiddleware(thunk))
+// const store=createStore(ReducerAlbums,applyMiddleware(thunk))
+// const store=createStore(ReducerComments,applyMiddleware(thunk))
+// const store=createStore(ReducerPosts,applyMiddleware(thunk))
+// console.log(store)
+const store = createStore(reducerProduct, applyMiddleware(thunk))
+console.log(store)
 ReactDOM.render(
   <React.StrictMode>
     <Provider store={store}>

@@ -1,0 +1,38 @@
+{
+  "person1": [
+    {
+      "fname": "lokesh",
+      "email": "lokeshvasu63@gmail.com",
+      "password": "qwerty",
+      "address": "patrapalli",
+      "id": 1
+    },
+    {
+      "fname": "sankar",
+      "email": "sankar@gmail.com",
+      "password": "wertyu",
+      "address": "penumur",
+      "id": 2
+    },
+    {
+      "fname": "lokesh",
+      "email": "vasu63@gmail.com",
+      "password": "qwerty",
+      "address": "chittoor",
+      "id": 3
+    },
+    {
+      "fname": "dilip",
+      "email": "dilip@gmail.com",
+      "password": "qwerty",
+      "address": "qwerty",
+      "id": 4
+    }
+  ],
+  "users1": [
+    {
+      "roll": " 12345",
+      "id": 1
+    }
+  ]
+}

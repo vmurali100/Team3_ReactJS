@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import Crud1 from './Crud1';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           Learn React
         </a>
       </header>
+      <Crud1/>
     </div>
   );
 }
